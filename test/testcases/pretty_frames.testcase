@@ -1,0 +1,5667 @@
+FFprobe version SVN-rUNKNOWN, Copyright (c) 2007-2008 Stefano Sabatini
+  libavutil version: 49.15.0
+  libavcodec version: 52.20.1
+  libavformat version: 52.31.0
+  built on May 22 2010 15:12:14, gcc: 4.2.1 (Apple Inc. build 5646) (dot 1)
+Input #0, ogg, from '/Users/philip/Projects/ffprobe/test/testcases/source.ogv':
+  Duration: 00:00:05.66, start: 0.000000, bitrate: 241 kb/s
+    Stream #0.0: Video: theora, yuv420p, 320x240, PAR 1:1 DAR 4:3, 49.58 tbr, 49.58 tbn, 49.58 tbc
+    Stream #0.1: Audio: vorbis, 22050 Hz, stereo, s16
+[FRAME]
+codec_type=video
+pict_type=?
+quality=0
+coded_picture_number=0
+display_picture_number=0
+interlaced_frame=0
+repeat_pict=0
+reference=3
+stream_index=0
+size=993.000 byte
+pkt_pts=0:00:00.000000 s
+pkt_dts=0:00:00.000000 s
+pkt_duration=0:00:00.020168 s
+file_pkt_nb=2
+stream_pkt_nb=1
+pkt_flag_key=K
+[/FRAME]
+[FRAME]
+codec_type=video
+pict_type=?
+quality=0
+coded_picture_number=0
+display_picture_number=0
+interlaced_frame=0
+repeat_pict=0
+reference=3
+stream_index=0
+size=20.000 byte
+pkt_pts=0:00:00.020168 s
+pkt_dts=0:00:00.020168 s
+pkt_duration=0:00:00.020168 s
+file_pkt_nb=3
+stream_pkt_nb=2
+pkt_flag_key=K
+[/FRAME]
+[FRAME]
+codec_type=audio
+samples_size=4.000 Kibyte
+stream_index=1
+size=30.000 byte
+pkt_pts=0:00:00.000000 s
+pkt_dts=0:00:00.000000 s
+pkt_duration=0:00:00.000000 s
+file_pkt_nb=4
+stream_pkt_nb=2
+pkt_flag_key=K
+[/FRAME]
+[FRAME]
+codec_type=video
+pict_type=?
+quality=0
+coded_picture_number=0
+display_picture_number=0
+interlaced_frame=0
+repeat_pict=0
+reference=3
+stream_index=0
+size=55.000 byte
+pkt_pts=0:00:00.040336 s
+pkt_dts=0:00:00.040336 s
+pkt_duration=0:00:00.020168 s
+file_pkt_nb=5
+stream_pkt_nb=3
+pkt_flag_key=K
+[/FRAME]
+[FRAME]
+codec_type=video
+pict_type=?
+quality=0
+coded_picture_number=0
+display_picture_number=0
+interlaced_frame=0
+repeat_pict=0
+reference=3
+stream_index=0
+size=820.000 byte
+pkt_pts=0:00:00.060504 s
+pkt_dts=0:00:00.060504 s
+pkt_duration=0:00:00.020168 s
+file_pkt_nb=6
+stream_pkt_nb=4
+pkt_flag_key=K
+[/FRAME]
+[FRAME]
+codec_type=audio
+samples_size=4.000 Kibyte
+stream_index=1
+size=30.000 byte
+pkt_pts=0:00:00.046440 s
+pkt_dts=0:00:00.046440 s
+pkt_duration=0:00:00.000000 s
+file_pkt_nb=7
+stream_pkt_nb=3
+pkt_flag_key=K
+[/FRAME]
+[FRAME]
+codec_type=video
+pict_type=?
+quality=0
+coded_picture_number=0
+display_picture_number=0
+interlaced_frame=0
+repeat_pict=0
+reference=3
+stream_index=0
+size=272.000 byte
+pkt_pts=0:00:00.080672 s
+pkt_dts=0:00:00.080672 s
+pkt_duration=0:00:00.020168 s
+file_pkt_nb=8
+stream_pkt_nb=5
+pkt_flag_key=K
+[/FRAME]
+[FRAME]
+codec_type=video
+pict_type=?
+quality=0
+coded_picture_number=0
+display_picture_number=0
+interlaced_frame=0
+repeat_pict=0
+reference=3
+stream_index=0
+size=530.000 byte
+pkt_pts=0:00:00.100840 s
+pkt_dts=0:00:00.100840 s
+pkt_duration=0:00:00.020168 s
+file_pkt_nb=9
+stream_pkt_nb=6
+pkt_flag_key=K
+[/FRAME]
+[FRAME]
+codec_type=audio
+samples_size=4.000 Kibyte
+stream_index=1
+size=106.000 byte
+pkt_pts=0:00:00.092880 s
+pkt_dts=0:00:00.092880 s
+pkt_duration=0:00:00.000000 s
+file_pkt_nb=10
+stream_pkt_nb=4
+pkt_flag_key=K
+[/FRAME]
+[FRAME]
+codec_type=video
+pict_type=?
+quality=0
+coded_picture_number=0
+display_picture_number=0
+interlaced_frame=0
+repeat_pict=0
+reference=3
+stream_index=0
+size=707.000 byte
+pkt_pts=0:00:00.121008 s
+pkt_dts=0:00:00.121008 s
+pkt_duration=0:00:00.020168 s
+file_pkt_nb=11
+stream_pkt_nb=7
+pkt_flag_key=K
+[/FRAME]
+[FRAME]
+codec_type=video
+pict_type=?
+quality=0
+coded_picture_number=0
+display_picture_number=0
+interlaced_frame=0
+repeat_pict=0
+reference=3
+stream_index=0
+size=1.048 Kibyte
+pkt_pts=0:00:00.141176 s
+pkt_dts=0:00:00.141176 s
+pkt_duration=0:00:00.020168 s
+file_pkt_nb=12
+stream_pkt_nb=8
+pkt_flag_key=K
+[/FRAME]
+[FRAME]
+codec_type=video
+pict_type=?
+quality=0
+coded_picture_number=0
+display_picture_number=0
+interlaced_frame=0
+repeat_pict=0
+reference=3
+stream_index=0
+size=27.000 byte
+pkt_pts=0:00:00.161345 s
+pkt_dts=0:00:00.161345 s
+pkt_duration=0:00:00.020168 s
+file_pkt_nb=13
+stream_pkt_nb=9
+pkt_flag_key=K
+[/FRAME]
+[FRAME]
+codec_type=audio
+samples_size=4.000 Kibyte
+stream_index=1
+size=108.000 byte
+pkt_pts=0:00:00.139320 s
+pkt_dts=0:00:00.139320 s
+pkt_duration=0:00:00.000000 s
+file_pkt_nb=14
+stream_pkt_nb=5
+pkt_flag_key=K
+[/FRAME]
+[FRAME]
+codec_type=video
+pict_type=?
+quality=0
+coded_picture_number=0
+display_picture_number=0
+interlaced_frame=0
+repeat_pict=0
+reference=3
+stream_index=0
+size=589.000 byte
+pkt_pts=0:00:00.181513 s
+pkt_dts=0:00:00.181513 s
+pkt_duration=0:00:00.020168 s
+file_pkt_nb=15
+stream_pkt_nb=10
+pkt_flag_key=K
+[/FRAME]
+[FRAME]
+codec_type=video
+pict_type=?
+quality=0
+coded_picture_number=0
+display_picture_number=0
+interlaced_frame=0
+repeat_pict=0
+reference=3
+stream_index=0
+size=177.000 byte
+pkt_pts=0:00:00.201681 s
+pkt_dts=0:00:00.201681 s
+pkt_duration=0:00:00.020168 s
+file_pkt_nb=16
+stream_pkt_nb=11
+pkt_flag_key=K
+[/FRAME]
+[FRAME]
+codec_type=audio
+samples_size=4.000 Kibyte
+stream_index=1
+size=106.000 byte
+pkt_pts=0:00:00.185760 s
+pkt_dts=0:00:00.185760 s
+pkt_duration=0:00:00.000000 s
+file_pkt_nb=17
+stream_pkt_nb=6
+pkt_flag_key=K
+[/FRAME]
+[FRAME]
+codec_type=video
+pict_type=?
+quality=0
+coded_picture_number=0
+display_picture_number=0
+interlaced_frame=0
+repeat_pict=0
+reference=3
+stream_index=0
+size=4.408 Kibyte
+pkt_pts=0:00:00.221849 s
+pkt_dts=0:00:00.221849 s
+pkt_duration=0:00:00.020168 s
+file_pkt_nb=18
+stream_pkt_nb=12
+pkt_flag_key=K
+[/FRAME]
+[FRAME]
+codec_type=video
+pict_type=?
+quality=0
+coded_picture_number=0
+display_picture_number=0
+interlaced_frame=0
+repeat_pict=0
+reference=3
+stream_index=0
+size=1017.000 byte
+pkt_pts=0:00:00.242017 s
+pkt_dts=0:00:00.242017 s
+pkt_duration=0:00:00.020168 s
+file_pkt_nb=19
+stream_pkt_nb=13
+pkt_flag_key=K
+[/FRAME]
+[FRAME]
+codec_type=audio
+samples_size=4.000 Kibyte
+stream_index=1
+size=118.000 byte
+pkt_pts=0:00:00.232200 s
+pkt_dts=0:00:00.232200 s
+pkt_duration=0:00:00.000000 s
+file_pkt_nb=20
+stream_pkt_nb=7
+pkt_flag_key=K
+[/FRAME]
+[FRAME]
+codec_type=video
+pict_type=?
+quality=0
+coded_picture_number=0
+display_picture_number=0
+interlaced_frame=0
+repeat_pict=0
+reference=3
+stream_index=0
+size=22.000 byte
+pkt_pts=0:00:00.262185 s
+pkt_dts=0:00:00.262185 s
+pkt_duration=0:00:00.020168 s
+file_pkt_nb=21
+stream_pkt_nb=14
+pkt_flag_key=K
+[/FRAME]
+[FRAME]
+codec_type=video
+pict_type=?
+quality=0
+coded_picture_number=0
+display_picture_number=0
+interlaced_frame=0
+repeat_pict=0
+reference=3
+stream_index=0
+size=211.000 byte
+pkt_pts=0:00:00.282353 s
+pkt_dts=0:00:00.282353 s
+pkt_duration=0:00:00.020168 s
+file_pkt_nb=22
+stream_pkt_nb=15
+pkt_flag_key=K
+[/FRAME]
+[FRAME]
+codec_type=video
+pict_type=?
+quality=0
+coded_picture_number=0
+display_picture_number=0
+interlaced_frame=0
+repeat_pict=0
+reference=3
+stream_index=0
+size=172.000 byte
+pkt_pts=0:00:00.302521 s
+pkt_dts=0:00:00.302521 s
+pkt_duration=0:00:00.020168 s
+file_pkt_nb=23
+stream_pkt_nb=16
+pkt_flag_key=K
+[/FRAME]
+[FRAME]
+codec_type=audio
+samples_size=4.000 Kibyte
+stream_index=1
+size=102.000 byte
+pkt_pts=0:00:00.278639 s
+pkt_dts=0:00:00.278639 s
+pkt_duration=0:00:00.000000 s
+file_pkt_nb=24
+stream_pkt_nb=8
+pkt_flag_key=K
+[/FRAME]
+[FRAME]
+codec_type=video
+pict_type=?
+quality=0
+coded_picture_number=0
+display_picture_number=0
+interlaced_frame=0
+repeat_pict=0
+reference=3
+stream_index=0
+size=877.000 byte
+pkt_pts=0:00:00.322689 s
+pkt_dts=0:00:00.322689 s
+pkt_duration=0:00:00.020168 s
+file_pkt_nb=25
+stream_pkt_nb=17
+pkt_flag_key=K
+[/FRAME]
+[FRAME]
+codec_type=video
+pict_type=?
+quality=0
+coded_picture_number=0
+display_picture_number=0
+interlaced_frame=0
+repeat_pict=0
+reference=3
+stream_index=0
+size=19.000 byte
+pkt_pts=0:00:00.342857 s
+pkt_dts=0:00:00.342857 s
+pkt_duration=0:00:00.020168 s
+file_pkt_nb=26
+stream_pkt_nb=18
+pkt_flag_key=K
+[/FRAME]
+[FRAME]
+codec_type=audio
+samples_size=4.000 Kibyte
+stream_index=1
+size=108.000 byte
+pkt_pts=0:00:00.325079 s
+pkt_dts=0:00:00.325079 s
+pkt_duration=0:00:00.000000 s
+file_pkt_nb=27
+stream_pkt_nb=9
+pkt_flag_key=K
+[/FRAME]
+[FRAME]
+codec_type=video
+pict_type=?
+quality=0
+coded_picture_number=0
+display_picture_number=0
+interlaced_frame=0
+repeat_pict=0
+reference=3
+stream_index=0
+size=665.000 byte
+pkt_pts=0:00:00.363025 s
+pkt_dts=0:00:00.363025 s
+pkt_duration=0:00:00.020168 s
+file_pkt_nb=28
+stream_pkt_nb=19
+pkt_flag_key=K
+[/FRAME]
+[FRAME]
+codec_type=video
+pict_type=?
+quality=0
+coded_picture_number=0
+display_picture_number=0
+interlaced_frame=0
+repeat_pict=0
+reference=3
+stream_index=0
+size=117.000 byte
+pkt_pts=0:00:00.383193 s
+pkt_dts=0:00:00.383193 s
+pkt_duration=0:00:00.020168 s
+file_pkt_nb=29
+stream_pkt_nb=20
+pkt_flag_key=K
+[/FRAME]
+[FRAME]
+codec_type=audio
+samples_size=4.000 Kibyte
+stream_index=1
+size=115.000 byte
+pkt_pts=0:00:00.371519 s
+pkt_dts=0:00:00.371519 s
+pkt_duration=0:00:00.000000 s
+file_pkt_nb=30
+stream_pkt_nb=10
+pkt_flag_key=K
+[/FRAME]
+[FRAME]
+codec_type=video
+pict_type=?
+quality=0
+coded_picture_number=0
+display_picture_number=0
+interlaced_frame=0
+repeat_pict=0
+reference=3
+stream_index=0
+size=272.000 byte
+pkt_pts=0:00:00.403361 s
+pkt_dts=0:00:00.403361 s
+pkt_duration=0:00:00.020168 s
+file_pkt_nb=31
+stream_pkt_nb=21
+pkt_flag_key=K
+[/FRAME]
+[FRAME]
+codec_type=video
+pict_type=?
+quality=0
+coded_picture_number=0
+display_picture_number=0
+interlaced_frame=0
+repeat_pict=0
+reference=3
+stream_index=0
+size=15.000 byte
+pkt_pts=0:00:00.423529 s
+pkt_dts=0:00:00.423529 s
+pkt_duration=0:00:00.020168 s
+file_pkt_nb=32
+stream_pkt_nb=22
+pkt_flag_key=K
+[/FRAME]
+[FRAME]
+codec_type=video
+pict_type=?
+quality=0
+coded_picture_number=0
+display_picture_number=0
+interlaced_frame=0
+repeat_pict=0
+reference=3
+stream_index=0
+size=3.279 Kibyte
+pkt_pts=0:00:00.443697 s
+pkt_dts=0:00:00.443697 s
+pkt_duration=0:00:00.020168 s
+file_pkt_nb=33
+stream_pkt_nb=23
+pkt_flag_key=K
+[/FRAME]
+[FRAME]
+codec_type=audio
+samples_size=4.000 Kibyte
+stream_index=1
+size=132.000 byte
+pkt_pts=0:00:00.417959 s
+pkt_dts=0:00:00.417959 s
+pkt_duration=0:00:00.000000 s
+file_pkt_nb=34
+stream_pkt_nb=11
+pkt_flag_key=K
+[/FRAME]
+[FRAME]
+codec_type=video
+pict_type=?
+quality=0
+coded_picture_number=0
+display_picture_number=0
+interlaced_frame=0
+repeat_pict=0
+reference=3
+stream_index=0
+size=747.000 byte
+pkt_pts=0:00:00.463866 s
+pkt_dts=0:00:00.463866 s
+pkt_duration=0:00:00.020168 s
+file_pkt_nb=35
+stream_pkt_nb=24
+pkt_flag_key=K
+[/FRAME]
+[FRAME]
+codec_type=video
+pict_type=?
+quality=0
+coded_picture_number=0
+display_picture_number=0
+interlaced_frame=0
+repeat_pict=0
+reference=3
+stream_index=0
+size=440.000 byte
+pkt_pts=0:00:00.484034 s
+pkt_dts=0:00:00.484034 s
+pkt_duration=0:00:00.020168 s
+file_pkt_nb=36
+stream_pkt_nb=25
+pkt_flag_key=K
+[/FRAME]
+[FRAME]
+codec_type=audio
+samples_size=4.000 Kibyte
+stream_index=1
+size=136.000 byte
+pkt_pts=0:00:00.464399 s
+pkt_dts=0:00:00.464399 s
+pkt_duration=0:00:00.000000 s
+file_pkt_nb=37
+stream_pkt_nb=12
+pkt_flag_key=K
+[/FRAME]
+[FRAME]
+codec_type=video
+pict_type=?
+quality=0
+coded_picture_number=0
+display_picture_number=0
+interlaced_frame=0
+repeat_pict=0
+reference=3
+stream_index=0
+size=22.000 byte
+pkt_pts=0:00:00.504202 s
+pkt_dts=0:00:00.504202 s
+pkt_duration=0:00:00.020168 s
+file_pkt_nb=38
+stream_pkt_nb=26
+pkt_flag_key=K
+[/FRAME]
+[FRAME]
+codec_type=video
+pict_type=?
+quality=0
+coded_picture_number=0
+display_picture_number=0
+interlaced_frame=0
+repeat_pict=0
+reference=3
+stream_index=0
+size=630.000 byte
+pkt_pts=0:00:00.524370 s
+pkt_dts=0:00:00.524370 s
+pkt_duration=0:00:00.020168 s
+file_pkt_nb=39
+stream_pkt_nb=27
+pkt_flag_key=K
+[/FRAME]
+[FRAME]
+codec_type=audio
+samples_size=4.000 Kibyte
+stream_index=1
+size=133.000 byte
+pkt_pts=0:00:00.510839 s
+pkt_dts=0:00:00.510839 s
+pkt_duration=0:00:00.000000 s
+file_pkt_nb=40
+stream_pkt_nb=13
+pkt_flag_key=K
+[/FRAME]
+[FRAME]
+codec_type=video
+pict_type=?
+quality=0
+coded_picture_number=0
+display_picture_number=0
+interlaced_frame=0
+repeat_pict=0
+reference=3
+stream_index=0
+size=29.000 byte
+pkt_pts=0:00:00.544538 s
+pkt_dts=0:00:00.544538 s
+pkt_duration=0:00:00.020168 s
+file_pkt_nb=41
+stream_pkt_nb=28
+pkt_flag_key=K
+[/FRAME]
+[FRAME]
+codec_type=video
+pict_type=?
+quality=0
+coded_picture_number=0
+display_picture_number=0
+interlaced_frame=0
+repeat_pict=0
+reference=3
+stream_index=0
+size=63.000 byte
+pkt_pts=0:00:00.564706 s
+pkt_dts=0:00:00.564706 s
+pkt_duration=0:00:00.020168 s
+file_pkt_nb=42
+stream_pkt_nb=29
+pkt_flag_key=K
+[/FRAME]
+[FRAME]
+codec_type=audio
+samples_size=4.000 Kibyte
+stream_index=1
+size=146.000 byte
+pkt_pts=0:00:00.557279 s
+pkt_dts=0:00:00.557279 s
+pkt_duration=0:00:00.000000 s
+file_pkt_nb=43
+stream_pkt_nb=14
+pkt_flag_key=K
+[/FRAME]
+[FRAME]
+codec_type=video
+pict_type=?
+quality=0
+coded_picture_number=0
+display_picture_number=0
+interlaced_frame=0
+repeat_pict=0
+reference=3
+stream_index=0
+size=761.000 byte
+pkt_pts=0:00:00.584874 s
+pkt_dts=0:00:00.584874 s
+pkt_duration=0:00:00.020168 s
+file_pkt_nb=44
+stream_pkt_nb=30
+pkt_flag_key=K
+[/FRAME]
+[FRAME]
+codec_type=video
+pict_type=?
+quality=0
+coded_picture_number=0
+display_picture_number=0
+interlaced_frame=0
+repeat_pict=0
+reference=3
+stream_index=0
+size=79.000 byte
+pkt_pts=0:00:00.605042 s
+pkt_dts=0:00:00.605042 s
+pkt_duration=0:00:00.020168 s
+file_pkt_nb=45
+stream_pkt_nb=31
+pkt_flag_key=K
+[/FRAME]
+[FRAME]
+codec_type=video
+pict_type=?
+quality=0
+coded_picture_number=0
+display_picture_number=0
+interlaced_frame=0
+repeat_pict=0
+reference=3
+stream_index=0
+size=2.652 Kibyte
+pkt_pts=0:00:00.625210 s
+pkt_dts=0:00:00.625210 s
+pkt_duration=0:00:00.020168 s
+file_pkt_nb=46
+stream_pkt_nb=32
+pkt_flag_key=K
+[/FRAME]
+[FRAME]
+codec_type=audio
+samples_size=4.000 Kibyte
+stream_index=1
+size=145.000 byte
+pkt_pts=0:00:00.603719 s
+pkt_dts=0:00:00.603719 s
+pkt_duration=0:00:00.000000 s
+file_pkt_nb=47
+stream_pkt_nb=15
+pkt_flag_key=K
+[/FRAME]
+[FRAME]
+codec_type=video
+pict_type=?
+quality=0
+coded_picture_number=0
+display_picture_number=0
+interlaced_frame=0
+repeat_pict=0
+reference=3
+stream_index=0
+size=16.000 byte
+pkt_pts=0:00:00.645378 s
+pkt_dts=0:00:00.645378 s
+pkt_duration=0:00:00.020168 s
+file_pkt_nb=48
+stream_pkt_nb=33
+pkt_flag_key=K
+[/FRAME]
+[FRAME]
+codec_type=video
+pict_type=?
+quality=0
+coded_picture_number=0
+display_picture_number=0
+interlaced_frame=0
+repeat_pict=0
+reference=3
+stream_index=0
+size=324.000 byte
+pkt_pts=0:00:00.665546 s
+pkt_dts=0:00:00.665546 s
+pkt_duration=0:00:00.020168 s
+file_pkt_nb=49
+stream_pkt_nb=34
+pkt_flag_key=K
+[/FRAME]
+[FRAME]
+codec_type=audio
+samples_size=4.000 Kibyte
+stream_index=1
+size=136.000 byte
+pkt_pts=0:00:00.650159 s
+pkt_dts=0:00:00.650159 s
+pkt_duration=0:00:00.000000 s
+file_pkt_nb=50
+stream_pkt_nb=16
+pkt_flag_key=K
+[/FRAME]
+[FRAME]
+codec_type=video
+pict_type=?
+quality=0
+coded_picture_number=0
+display_picture_number=0
+interlaced_frame=0
+repeat_pict=0
+reference=3
+stream_index=0
+size=299.000 byte
+pkt_pts=0:00:00.685714 s
+pkt_dts=0:00:00.685714 s
+pkt_duration=0:00:00.020168 s
+file_pkt_nb=51
+stream_pkt_nb=35
+pkt_flag_key=K
+[/FRAME]
+[FRAME]
+codec_type=video
+pict_type=?
+quality=0
+coded_picture_number=0
+display_picture_number=0
+interlaced_frame=0
+repeat_pict=0
+reference=3
+stream_index=0
+size=1.401 Kibyte
+pkt_pts=0:00:00.705882 s
+pkt_dts=0:00:00.705882 s
+pkt_duration=0:00:00.020168 s
+file_pkt_nb=52
+stream_pkt_nb=36
+pkt_flag_key=K
+[/FRAME]
+[FRAME]
+codec_type=audio
+samples_size=4.000 Kibyte
+stream_index=1
+size=138.000 byte
+pkt_pts=0:00:00.696599 s
+pkt_dts=0:00:00.696599 s
+pkt_duration=0:00:00.000000 s
+file_pkt_nb=53
+stream_pkt_nb=17
+pkt_flag_key=K
+[/FRAME]
+[FRAME]
+codec_type=video
+pict_type=?
+quality=0
+coded_picture_number=0
+display_picture_number=0
+interlaced_frame=0
+repeat_pict=0
+reference=3
+stream_index=0
+size=31.000 byte
+pkt_pts=0:00:00.726050 s
+pkt_dts=0:00:00.726050 s
+pkt_duration=0:00:00.020168 s
+file_pkt_nb=54
+stream_pkt_nb=37
+pkt_flag_key=K
+[/FRAME]
+[FRAME]
+codec_type=video
+pict_type=?
+quality=0
+coded_picture_number=0
+display_picture_number=0
+interlaced_frame=0
+repeat_pict=0
+reference=3
+stream_index=0
+size=183.000 byte
+pkt_pts=0:00:00.746218 s
+pkt_dts=0:00:00.746218 s
+pkt_duration=0:00:00.020168 s
+file_pkt_nb=55
+stream_pkt_nb=38
+pkt_flag_key=K
+[/FRAME]
+[FRAME]
+codec_type=video
+pict_type=?
+quality=0
+coded_picture_number=0
+display_picture_number=0
+interlaced_frame=0
+repeat_pict=0
+reference=3
+stream_index=0
+size=17.000 byte
+pkt_pts=0:00:00.766387 s
+pkt_dts=0:00:00.766387 s
+pkt_duration=0:00:00.020168 s
+file_pkt_nb=56
+stream_pkt_nb=39
+pkt_flag_key=K
+[/FRAME]
+[FRAME]
+codec_type=audio
+samples_size=4.000 Kibyte
+stream_index=1
+size=117.000 byte
+pkt_pts=0:00:00.743039 s
+pkt_dts=0:00:00.743039 s
+pkt_duration=0:00:00.000000 s
+file_pkt_nb=57
+stream_pkt_nb=18
+pkt_flag_key=K
+[/FRAME]
+[FRAME]
+codec_type=video
+pict_type=?
+quality=0
+coded_picture_number=0
+display_picture_number=0
+interlaced_frame=0
+repeat_pict=0
+reference=3
+stream_index=0
+size=372.000 byte
+pkt_pts=0:00:00.786555 s
+pkt_dts=0:00:00.786555 s
+pkt_duration=0:00:00.020168 s
+file_pkt_nb=58
+stream_pkt_nb=40
+pkt_flag_key=K
+[/FRAME]
+[FRAME]
+codec_type=video
+pict_type=?
+quality=0
+coded_picture_number=0
+display_picture_number=0
+interlaced_frame=0
+repeat_pict=0
+reference=3
+stream_index=0
+size=90.000 byte
+pkt_pts=0:00:00.806723 s
+pkt_dts=0:00:00.806723 s
+pkt_duration=0:00:00.020168 s
+file_pkt_nb=59
+stream_pkt_nb=41
+pkt_flag_key=K
+[/FRAME]
+[FRAME]
+codec_type=audio
+samples_size=4.000 Kibyte
+stream_index=1
+size=124.000 byte
+pkt_pts=0:00:00.789478 s
+pkt_dts=0:00:00.789478 s
+pkt_duration=0:00:00.000000 s
+file_pkt_nb=60
+stream_pkt_nb=19
+pkt_flag_key=K
+[/FRAME]
+[FRAME]
+codec_type=video
+pict_type=?
+quality=0
+coded_picture_number=0
+display_picture_number=0
+interlaced_frame=0
+repeat_pict=0
+reference=3
+stream_index=0
+size=682.000 byte
+pkt_pts=0:00:00.826891 s
+pkt_dts=0:00:00.826891 s
+pkt_duration=0:00:00.020168 s
+file_pkt_nb=61
+stream_pkt_nb=42
+pkt_flag_key=K
+[/FRAME]
+[FRAME]
+codec_type=video
+pict_type=?
+quality=0
+coded_picture_number=0
+display_picture_number=0
+interlaced_frame=0
+repeat_pict=0
+reference=3
+stream_index=0
+size=26.000 byte
+pkt_pts=0:00:00.847059 s
+pkt_dts=0:00:00.847059 s
+pkt_duration=0:00:00.020168 s
+file_pkt_nb=62
+stream_pkt_nb=43
+pkt_flag_key=K
+[/FRAME]
+[FRAME]
+codec_type=audio
+samples_size=4.000 Kibyte
+stream_index=1
+size=111.000 byte
+pkt_pts=0:00:00.835918 s
+pkt_dts=0:00:00.835918 s
+pkt_duration=0:00:00.000000 s
+file_pkt_nb=63
+stream_pkt_nb=20
+pkt_flag_key=K
+[/FRAME]
+[FRAME]
+codec_type=video
+pict_type=?
+quality=0
+coded_picture_number=0
+display_picture_number=0
+interlaced_frame=0
+repeat_pict=0
+reference=3
+stream_index=0
+size=2.804 Kibyte
+pkt_pts=0:00:00.867227 s
+pkt_dts=0:00:00.867227 s
+pkt_duration=0:00:00.020168 s
+file_pkt_nb=64
+stream_pkt_nb=44
+pkt_flag_key=K
+[/FRAME]
+[FRAME]
+codec_type=video
+pict_type=?
+quality=0
+coded_picture_number=0
+display_picture_number=0
+interlaced_frame=0
+repeat_pict=0
+reference=3
+stream_index=0
+size=505.000 byte
+pkt_pts=0:00:00.887395 s
+pkt_dts=0:00:00.887395 s
+pkt_duration=0:00:00.020168 s
+file_pkt_nb=65
+stream_pkt_nb=45
+pkt_flag_key=K
+[/FRAME]
+[FRAME]
+codec_type=video
+pict_type=?
+quality=0
+coded_picture_number=0
+display_picture_number=0
+interlaced_frame=0
+repeat_pict=0
+reference=3
+stream_index=0
+size=35.000 byte
+pkt_pts=0:00:00.907563 s
+pkt_dts=0:00:00.907563 s
+pkt_duration=0:00:00.020168 s
+file_pkt_nb=66
+stream_pkt_nb=46
+pkt_flag_key=K
+[/FRAME]
+[FRAME]
+codec_type=audio
+samples_size=4.000 Kibyte
+stream_index=1
+size=108.000 byte
+pkt_pts=0:00:00.882358 s
+pkt_dts=0:00:00.882358 s
+pkt_duration=0:00:00.000000 s
+file_pkt_nb=67
+stream_pkt_nb=21
+pkt_flag_key=K
+[/FRAME]
+[FRAME]
+codec_type=video
+pict_type=?
+quality=0
+coded_picture_number=0
+display_picture_number=0
+interlaced_frame=0
+repeat_pict=0
+reference=3
+stream_index=0
+size=1.448 Kibyte
+pkt_pts=0:00:00.927731 s
+pkt_dts=0:00:00.927731 s
+pkt_duration=0:00:00.020168 s
+file_pkt_nb=68
+stream_pkt_nb=47
+pkt_flag_key=K
+[/FRAME]
+[FRAME]
+codec_type=video
+pict_type=?
+quality=0
+coded_picture_number=0
+display_picture_number=0
+interlaced_frame=0
+repeat_pict=0
+reference=3
+stream_index=0
+size=15.000 byte
+pkt_pts=0:00:00.947899 s
+pkt_dts=0:00:00.947899 s
+pkt_duration=0:00:00.020168 s
+file_pkt_nb=69
+stream_pkt_nb=48
+pkt_flag_key=K
+[/FRAME]
+[FRAME]
+codec_type=audio
+samples_size=4.000 Kibyte
+stream_index=1
+size=104.000 byte
+pkt_pts=0:00:00.928798 s
+pkt_dts=0:00:00.928798 s
+pkt_duration=0:00:00.000000 s
+file_pkt_nb=70
+stream_pkt_nb=22
+pkt_flag_key=K
+[/FRAME]
+[FRAME]
+codec_type=video
+pict_type=?
+quality=0
+coded_picture_number=0
+display_picture_number=0
+interlaced_frame=0
+repeat_pict=0
+reference=3
+stream_index=0
+size=167.000 byte
+pkt_pts=0:00:00.968067 s
+pkt_dts=0:00:00.968067 s
+pkt_duration=0:00:00.020168 s
+file_pkt_nb=71
+stream_pkt_nb=49
+pkt_flag_key=K
+[/FRAME]
+[FRAME]
+codec_type=video
+pict_type=?
+quality=0
+coded_picture_number=0
+display_picture_number=0
+interlaced_frame=0
+repeat_pict=0
+reference=3
+stream_index=0
+size=20.000 byte
+pkt_pts=0:00:00.988235 s
+pkt_dts=0:00:00.988235 s
+pkt_duration=0:00:00.020168 s
+file_pkt_nb=72
+stream_pkt_nb=50
+pkt_flag_key=K
+[/FRAME]
+[FRAME]
+codec_type=audio
+samples_size=4.000 Kibyte
+stream_index=1
+size=129.000 byte
+pkt_pts=0:00:00.975238 s
+pkt_dts=0:00:00.975238 s
+pkt_duration=0:00:00.000000 s
+file_pkt_nb=73
+stream_pkt_nb=23
+pkt_flag_key=K
+[/FRAME]
+[FRAME]
+codec_type=video
+pict_type=?
+quality=0
+coded_picture_number=0
+display_picture_number=0
+interlaced_frame=0
+repeat_pict=0
+reference=3
+stream_index=0
+size=759.000 byte
+pkt_pts=0:00:01.008403 s
+pkt_dts=0:00:01.008403 s
+pkt_duration=0:00:00.020168 s
+file_pkt_nb=74
+stream_pkt_nb=51
+pkt_flag_key=K
+[/FRAME]
+[FRAME]
+codec_type=video
+pict_type=?
+quality=0
+coded_picture_number=0
+display_picture_number=0
+interlaced_frame=0
+repeat_pict=0
+reference=3
+stream_index=0
+size=138.000 byte
+pkt_pts=0:00:01.028571 s
+pkt_dts=0:00:01.028571 s
+pkt_duration=0:00:00.020168 s
+file_pkt_nb=75
+stream_pkt_nb=52
+pkt_flag_key=K
+[/FRAME]
+[FRAME]
+codec_type=audio
+samples_size=4.000 Kibyte
+stream_index=1
+size=140.000 byte
+pkt_pts=0:00:01.021678 s
+pkt_dts=0:00:01.021678 s
+pkt_duration=0:00:00.000000 s
+file_pkt_nb=76
+stream_pkt_nb=24
+pkt_flag_key=K
+[/FRAME]
+[FRAME]
+codec_type=video
+pict_type=?
+quality=0
+coded_picture_number=0
+display_picture_number=0
+interlaced_frame=0
+repeat_pict=0
+reference=3
+stream_index=0
+size=174.000 byte
+pkt_pts=0:00:01.048739 s
+pkt_dts=0:00:01.048739 s
+pkt_duration=0:00:00.020168 s
+file_pkt_nb=77
+stream_pkt_nb=53
+pkt_flag_key=K
+[/FRAME]
+[FRAME]
+codec_type=video
+pict_type=?
+quality=0
+coded_picture_number=0
+display_picture_number=0
+interlaced_frame=0
+repeat_pict=0
+reference=3
+stream_index=0
+size=21.000 byte
+pkt_pts=0:00:01.068908 s
+pkt_dts=0:00:01.068908 s
+pkt_duration=0:00:00.020168 s
+file_pkt_nb=78
+stream_pkt_nb=54
+pkt_flag_key=K
+[/FRAME]
+[FRAME]
+codec_type=video
+pict_type=?
+quality=0
+coded_picture_number=0
+display_picture_number=0
+interlaced_frame=0
+repeat_pict=0
+reference=3
+stream_index=0
+size=2.682 Kibyte
+pkt_pts=0:00:01.089076 s
+pkt_dts=0:00:01.089076 s
+pkt_duration=0:00:00.020168 s
+file_pkt_nb=79
+stream_pkt_nb=55
+pkt_flag_key=K
+[/FRAME]
+[FRAME]
+codec_type=audio
+samples_size=4.000 Kibyte
+stream_index=1
+size=131.000 byte
+pkt_pts=0:00:01.068118 s
+pkt_dts=0:00:01.068118 s
+pkt_duration=0:00:00.000000 s
+file_pkt_nb=80
+stream_pkt_nb=25
+pkt_flag_key=K
+[/FRAME]
+[FRAME]
+codec_type=video
+pict_type=?
+quality=0
+coded_picture_number=0
+display_picture_number=0
+interlaced_frame=0
+repeat_pict=0
+reference=3
+stream_index=0
+size=984.000 byte
+pkt_pts=0:00:01.109244 s
+pkt_dts=0:00:01.109244 s
+pkt_duration=0:00:00.020168 s
+file_pkt_nb=81
+stream_pkt_nb=56
+pkt_flag_key=K
+[/FRAME]
+[FRAME]
+codec_type=video
+pict_type=?
+quality=0
+coded_picture_number=0
+display_picture_number=0
+interlaced_frame=0
+repeat_pict=0
+reference=3
+stream_index=0
+size=20.000 byte
+pkt_pts=0:00:01.129412 s
+pkt_dts=0:00:01.129412 s
+pkt_duration=0:00:00.020168 s
+file_pkt_nb=82
+stream_pkt_nb=57
+pkt_flag_key=K
+[/FRAME]
+[FRAME]
+codec_type=audio
+samples_size=4.000 Kibyte
+stream_index=1
+size=135.000 byte
+pkt_pts=0:00:01.114558 s
+pkt_dts=0:00:01.114558 s
+pkt_duration=0:00:00.000000 s
+file_pkt_nb=83
+stream_pkt_nb=26
+pkt_flag_key=K
+[/FRAME]
+[FRAME]
+codec_type=video
+pict_type=?
+quality=0
+coded_picture_number=0
+display_picture_number=0
+interlaced_frame=0
+repeat_pict=0
+reference=3
+stream_index=0
+size=171.000 byte
+pkt_pts=0:00:01.149580 s
+pkt_dts=0:00:01.149580 s
+pkt_duration=0:00:00.020168 s
+file_pkt_nb=84
+stream_pkt_nb=58
+pkt_flag_key=K
+[/FRAME]
+[FRAME]
+codec_type=video
+pict_type=?
+quality=0
+coded_picture_number=0
+display_picture_number=0
+interlaced_frame=0
+repeat_pict=0
+reference=3
+stream_index=0
+size=23.000 byte
+pkt_pts=0:00:01.169748 s
+pkt_dts=0:00:01.169748 s
+pkt_duration=0:00:00.020168 s
+file_pkt_nb=85
+stream_pkt_nb=59
+pkt_flag_key=K
+[/FRAME]
+[FRAME]
+codec_type=audio
+samples_size=4.000 Kibyte
+stream_index=1
+size=138.000 byte
+pkt_pts=0:00:01.160998 s
+pkt_dts=0:00:01.160998 s
+pkt_duration=0:00:00.000000 s
+file_pkt_nb=86
+stream_pkt_nb=27
+pkt_flag_key=K
+[/FRAME]
+[FRAME]
+codec_type=video
+pict_type=?
+quality=0
+coded_picture_number=0
+display_picture_number=0
+interlaced_frame=0
+repeat_pict=0
+reference=3
+stream_index=0
+size=1.154 Kibyte
+pkt_pts=0:00:01.189916 s
+pkt_dts=0:00:01.189916 s
+pkt_duration=0:00:00.020168 s
+file_pkt_nb=87
+stream_pkt_nb=60
+pkt_flag_key=K
+[/FRAME]
+[FRAME]
+codec_type=video
+pict_type=?
+quality=0
+coded_picture_number=0
+display_picture_number=0
+interlaced_frame=0
+repeat_pict=0
+reference=3
+stream_index=0
+size=18.000 byte
+pkt_pts=0:00:01.210084 s
+pkt_dts=0:00:01.210084 s
+pkt_duration=0:00:00.020168 s
+file_pkt_nb=88
+stream_pkt_nb=61
+pkt_flag_key=K
+[/FRAME]
+[FRAME]
+codec_type=video
+pict_type=?
+quality=0
+coded_picture_number=0
+display_picture_number=0
+interlaced_frame=0
+repeat_pict=0
+reference=3
+stream_index=0
+size=26.000 byte
+pkt_pts=0:00:01.230252 s
+pkt_dts=0:00:01.230252 s
+pkt_duration=0:00:00.020168 s
+file_pkt_nb=89
+stream_pkt_nb=62
+pkt_flag_key=K
+[/FRAME]
+[FRAME]
+codec_type=audio
+samples_size=4.000 Kibyte
+stream_index=1
+size=143.000 byte
+pkt_pts=0:00:01.207438 s
+pkt_dts=0:00:01.207438 s
+pkt_duration=0:00:00.000000 s
+file_pkt_nb=90
+stream_pkt_nb=28
+pkt_flag_key=K
+[/FRAME]
+[FRAME]
+codec_type=video
+pict_type=?
+quality=0
+coded_picture_number=0
+display_picture_number=0
+interlaced_frame=0
+repeat_pict=0
+reference=3
+stream_index=0
+size=48.000 byte
+pkt_pts=0:00:01.250420 s
+pkt_dts=0:00:01.250420 s
+pkt_duration=0:00:00.020168 s
+file_pkt_nb=91
+stream_pkt_nb=63
+pkt_flag_key=K
+[/FRAME]
+[FRAME]
+codec_type=video
+pict_type=?
+quality=0
+coded_picture_number=0
+display_picture_number=0
+interlaced_frame=0
+repeat_pict=0
+reference=3
+stream_index=0
+size=1.379 Kibyte
+pkt_pts=0:00:01.270588 s
+pkt_dts=0:00:01.270588 s
+pkt_duration=0:00:00.020168 s
+file_pkt_nb=92
+stream_pkt_nb=64
+pkt_flag_key=K
+[/FRAME]
+[FRAME]
+codec_type=audio
+samples_size=4.000 Kibyte
+stream_index=1
+size=140.000 byte
+pkt_pts=0:00:01.253878 s
+pkt_dts=0:00:01.253878 s
+pkt_duration=0:00:00.000000 s
+file_pkt_nb=93
+stream_pkt_nb=29
+pkt_flag_key=K
+[/FRAME]
+[FRAME]
+codec_type=video
+pict_type=?
+quality=0
+coded_picture_number=0
+display_picture_number=0
+interlaced_frame=0
+repeat_pict=0
+reference=3
+stream_index=0
+size=37.000 byte
+pkt_pts=0:00:01.290756 s
+pkt_dts=0:00:01.290756 s
+pkt_duration=0:00:00.020168 s
+file_pkt_nb=94
+stream_pkt_nb=65
+pkt_flag_key=K
+[/FRAME]
+[FRAME]
+codec_type=video
+pict_type=?
+quality=0
+coded_picture_number=0
+display_picture_number=0
+interlaced_frame=0
+repeat_pict=0
+reference=3
+stream_index=0
+size=2.031 Kibyte
+pkt_pts=0:00:01.310924 s
+pkt_dts=0:00:01.310924 s
+pkt_duration=0:00:00.020168 s
+file_pkt_nb=95
+stream_pkt_nb=66
+pkt_flag_key=K
+[/FRAME]
+[FRAME]
+codec_type=audio
+samples_size=4.000 Kibyte
+stream_index=1
+size=156.000 byte
+pkt_pts=0:00:01.300317 s
+pkt_dts=0:00:01.300317 s
+pkt_duration=0:00:00.000000 s
+file_pkt_nb=96
+stream_pkt_nb=30
+pkt_flag_key=K
+[/FRAME]
+[FRAME]
+codec_type=video
+pict_type=?
+quality=0
+coded_picture_number=0
+display_picture_number=0
+interlaced_frame=0
+repeat_pict=0
+reference=3
+stream_index=0
+size=198.000 byte
+pkt_pts=0:00:01.331092 s
+pkt_dts=0:00:01.331092 s
+pkt_duration=0:00:00.020168 s
+file_pkt_nb=97
+stream_pkt_nb=67
+pkt_flag_key=K
+[/FRAME]
+[FRAME]
+codec_type=video
+pict_type=?
+quality=0
+coded_picture_number=0
+display_picture_number=0
+interlaced_frame=0
+repeat_pict=0
+reference=3
+stream_index=0
+size=43.000 byte
+pkt_pts=0:00:01.351261 s
+pkt_dts=0:00:01.351261 s
+pkt_duration=0:00:00.020168 s
+file_pkt_nb=98
+stream_pkt_nb=68
+pkt_flag_key=K
+[/FRAME]
+[FRAME]
+codec_type=video
+pict_type=?
+quality=0
+coded_picture_number=0
+display_picture_number=0
+interlaced_frame=0
+repeat_pict=0
+reference=3
+stream_index=0
+size=2.055 Kibyte
+pkt_pts=0:00:01.371429 s
+pkt_dts=0:00:01.371429 s
+pkt_duration=0:00:00.020168 s
+file_pkt_nb=99
+stream_pkt_nb=69
+pkt_flag_key=K
+[/FRAME]
+[FRAME]
+codec_type=audio
+samples_size=4.000 Kibyte
+stream_index=1
+size=133.000 byte
+pkt_pts=0:00:01.346757 s
+pkt_dts=0:00:01.346757 s
+pkt_duration=0:00:00.000000 s
+file_pkt_nb=100
+stream_pkt_nb=31
+pkt_flag_key=K
+[/FRAME]
+[FRAME]
+codec_type=video
+pict_type=?
+quality=0
+coded_picture_number=0
+display_picture_number=0
+interlaced_frame=0
+repeat_pict=0
+reference=3
+stream_index=0
+size=21.000 byte
+pkt_pts=0:00:01.391597 s
+pkt_dts=0:00:01.391597 s
+pkt_duration=0:00:00.020168 s
+file_pkt_nb=101
+stream_pkt_nb=70
+pkt_flag_key=K
+[/FRAME]
+[FRAME]
+codec_type=video
+pict_type=?
+quality=0
+coded_picture_number=0
+display_picture_number=0
+interlaced_frame=0
+repeat_pict=0
+reference=3
+stream_index=0
+size=1.384 Kibyte
+pkt_pts=0:00:01.411765 s
+pkt_dts=0:00:01.411765 s
+pkt_duration=0:00:00.020168 s
+file_pkt_nb=102
+stream_pkt_nb=71
+pkt_flag_key=K
+[/FRAME]
+[FRAME]
+codec_type=audio
+samples_size=4.000 Kibyte
+stream_index=1
+size=124.000 byte
+pkt_pts=0:00:01.393197 s
+pkt_dts=0:00:01.393197 s
+pkt_duration=0:00:00.000000 s
+file_pkt_nb=103
+stream_pkt_nb=32
+pkt_flag_key=K
+[/FRAME]
+[FRAME]
+codec_type=video
+pict_type=?
+quality=0
+coded_picture_number=0
+display_picture_number=0
+interlaced_frame=0
+repeat_pict=0
+reference=3
+stream_index=0
+size=37.000 byte
+pkt_pts=0:00:01.431933 s
+pkt_dts=0:00:01.431933 s
+pkt_duration=0:00:00.020168 s
+file_pkt_nb=104
+stream_pkt_nb=72
+pkt_flag_key=K
+[/FRAME]
+[FRAME]
+codec_type=video
+pict_type=?
+quality=0
+coded_picture_number=0
+display_picture_number=0
+interlaced_frame=0
+repeat_pict=0
+reference=3
+stream_index=0
+size=52.000 byte
+pkt_pts=0:00:01.452101 s
+pkt_dts=0:00:01.452101 s
+pkt_duration=0:00:00.020168 s
+file_pkt_nb=105
+stream_pkt_nb=73
+pkt_flag_key=K
+[/FRAME]
+[FRAME]
+codec_type=audio
+samples_size=4.000 Kibyte
+stream_index=1
+size=119.000 byte
+pkt_pts=0:00:01.439637 s
+pkt_dts=0:00:01.439637 s
+pkt_duration=0:00:00.000000 s
+file_pkt_nb=106
+stream_pkt_nb=33
+pkt_flag_key=K
+[/FRAME]
+[FRAME]
+codec_type=video
+pict_type=?
+quality=0
+coded_picture_number=0
+display_picture_number=0
+interlaced_frame=0
+repeat_pict=0
+reference=3
+stream_index=0
+size=850.000 byte
+pkt_pts=0:00:01.472269 s
+pkt_dts=0:00:01.472269 s
+pkt_duration=0:00:00.020168 s
+file_pkt_nb=107
+stream_pkt_nb=74
+pkt_flag_key=K
+[/FRAME]
+[FRAME]
+codec_type=video
+pict_type=?
+quality=0
+coded_picture_number=0
+display_picture_number=0
+interlaced_frame=0
+repeat_pict=0
+reference=3
+stream_index=0
+size=15.000 byte
+pkt_pts=0:00:01.492437 s
+pkt_dts=0:00:01.492437 s
+pkt_duration=0:00:00.020168 s
+file_pkt_nb=108
+stream_pkt_nb=75
+pkt_flag_key=K
+[/FRAME]
+[FRAME]
+codec_type=audio
+samples_size=4.000 Kibyte
+stream_index=1
+size=105.000 byte
+pkt_pts=0:00:01.486077 s
+pkt_dts=0:00:01.486077 s
+pkt_duration=0:00:00.000000 s
+file_pkt_nb=109
+stream_pkt_nb=34
+pkt_flag_key=K
+[/FRAME]
+[FRAME]
+codec_type=video
+pict_type=?
+quality=0
+coded_picture_number=0
+display_picture_number=0
+interlaced_frame=0
+repeat_pict=0
+reference=3
+stream_index=0
+size=1.607 Kibyte
+pkt_pts=0:00:01.512605 s
+pkt_dts=0:00:01.512605 s
+pkt_duration=0:00:00.020168 s
+file_pkt_nb=110
+stream_pkt_nb=76
+pkt_flag_key=K
+[/FRAME]
+[FRAME]
+codec_type=video
+pict_type=?
+quality=0
+coded_picture_number=0
+display_picture_number=0
+interlaced_frame=0
+repeat_pict=0
+reference=3
+stream_index=0
+size=15.000 byte
+pkt_pts=0:00:01.532773 s
+pkt_dts=0:00:01.532773 s
+pkt_duration=0:00:00.020168 s
+file_pkt_nb=111
+stream_pkt_nb=77
+pkt_flag_key=K
+[/FRAME]
+[FRAME]
+codec_type=video
+pict_type=?
+quality=0
+coded_picture_number=0
+display_picture_number=0
+interlaced_frame=0
+repeat_pict=0
+reference=3
+stream_index=0
+size=958.000 byte
+pkt_pts=0:00:01.552941 s
+pkt_dts=0:00:01.552941 s
+pkt_duration=0:00:00.020168 s
+file_pkt_nb=112
+stream_pkt_nb=78
+pkt_flag_key=K
+[/FRAME]
+[FRAME]
+codec_type=audio
+samples_size=4.000 Kibyte
+stream_index=1
+size=131.000 byte
+pkt_pts=0:00:01.532517 s
+pkt_dts=0:00:01.532517 s
+pkt_duration=0:00:00.000000 s
+file_pkt_nb=113
+stream_pkt_nb=35
+pkt_flag_key=K
+[/FRAME]
+[FRAME]
+codec_type=video
+pict_type=?
+quality=0
+coded_picture_number=0
+display_picture_number=0
+interlaced_frame=0
+repeat_pict=0
+reference=3
+stream_index=0
+size=30.000 byte
+pkt_pts=0:00:01.573109 s
+pkt_dts=0:00:01.573109 s
+pkt_duration=0:00:00.020168 s
+file_pkt_nb=114
+stream_pkt_nb=79
+pkt_flag_key=K
+[/FRAME]
+[FRAME]
+codec_type=video
+pict_type=?
+quality=0
+coded_picture_number=0
+display_picture_number=0
+interlaced_frame=0
+repeat_pict=0
+reference=3
+stream_index=0
+size=548.000 byte
+pkt_pts=0:00:01.593277 s
+pkt_dts=0:00:01.593277 s
+pkt_duration=0:00:00.020168 s
+file_pkt_nb=115
+stream_pkt_nb=80
+pkt_flag_key=K
+[/FRAME]
+[FRAME]
+codec_type=audio
+samples_size=4.000 Kibyte
+stream_index=1
+size=135.000 byte
+pkt_pts=0:00:01.578957 s
+pkt_dts=0:00:01.578957 s
+pkt_duration=0:00:00.000000 s
+file_pkt_nb=116
+stream_pkt_nb=36
+pkt_flag_key=K
+[/FRAME]
+[FRAME]
+codec_type=video
+pict_type=?
+quality=0
+coded_picture_number=0
+display_picture_number=0
+interlaced_frame=0
+repeat_pict=0
+reference=3
+stream_index=0
+size=16.000 byte
+pkt_pts=0:00:01.613445 s
+pkt_dts=0:00:01.613445 s
+pkt_duration=0:00:00.020168 s
+file_pkt_nb=117
+stream_pkt_nb=81
+pkt_flag_key=K
+[/FRAME]
+[FRAME]
+codec_type=video
+pict_type=?
+quality=0
+coded_picture_number=0
+display_picture_number=0
+interlaced_frame=0
+repeat_pict=0
+reference=3
+stream_index=0
+size=41.000 byte
+pkt_pts=0:00:01.633613 s
+pkt_dts=0:00:01.633613 s
+pkt_duration=0:00:00.020168 s
+file_pkt_nb=118
+stream_pkt_nb=82
+pkt_flag_key=K
+[/FRAME]
+[FRAME]
+codec_type=audio
+samples_size=4.000 Kibyte
+stream_index=1
+size=163.000 byte
+pkt_pts=0:00:01.625397 s
+pkt_dts=0:00:01.625397 s
+pkt_duration=0:00:00.000000 s
+file_pkt_nb=119
+stream_pkt_nb=37
+pkt_flag_key=K
+[/FRAME]
+[FRAME]
+codec_type=video
+pict_type=?
+quality=0
+coded_picture_number=0
+display_picture_number=0
+interlaced_frame=0
+repeat_pict=0
+reference=3
+stream_index=0
+size=263.000 byte
+pkt_pts=0:00:01.653782 s
+pkt_dts=0:00:01.653782 s
+pkt_duration=0:00:00.020168 s
+file_pkt_nb=120
+stream_pkt_nb=83
+pkt_flag_key=K
+[/FRAME]
+[FRAME]
+codec_type=video
+pict_type=?
+quality=0
+coded_picture_number=0
+display_picture_number=0
+interlaced_frame=0
+repeat_pict=0
+reference=3
+stream_index=0
+size=104.000 byte
+pkt_pts=0:00:01.673950 s
+pkt_dts=0:00:01.673950 s
+pkt_duration=0:00:00.020168 s
+file_pkt_nb=121
+stream_pkt_nb=84
+pkt_flag_key=K
+[/FRAME]
+[FRAME]
+codec_type=video
+pict_type=?
+quality=0
+coded_picture_number=0
+display_picture_number=0
+interlaced_frame=0
+repeat_pict=0
+reference=3
+stream_index=0
+size=152.000 byte
+pkt_pts=0:00:01.694118 s
+pkt_dts=0:00:01.694118 s
+pkt_duration=0:00:00.020168 s
+file_pkt_nb=122
+stream_pkt_nb=85
+pkt_flag_key=K
+[/FRAME]
+[FRAME]
+codec_type=audio
+samples_size=4.000 Kibyte
+stream_index=1
+size=132.000 byte
+pkt_pts=0:00:01.671837 s
+pkt_dts=0:00:01.671837 s
+pkt_duration=0:00:00.000000 s
+file_pkt_nb=123
+stream_pkt_nb=38
+pkt_flag_key=K
+[/FRAME]
+[FRAME]
+codec_type=video
+pict_type=?
+quality=0
+coded_picture_number=0
+display_picture_number=0
+interlaced_frame=0
+repeat_pict=0
+reference=3
+stream_index=0
+size=218.000 byte
+pkt_pts=0:00:01.714286 s
+pkt_dts=0:00:01.714286 s
+pkt_duration=0:00:00.020168 s
+file_pkt_nb=124
+stream_pkt_nb=86
+pkt_flag_key=K
+[/FRAME]
+[FRAME]
+codec_type=video
+pict_type=?
+quality=0
+coded_picture_number=0
+display_picture_number=0
+interlaced_frame=0
+repeat_pict=0
+reference=3
+stream_index=0
+size=1.980 Kibyte
+pkt_pts=0:00:01.734454 s
+pkt_dts=0:00:01.734454 s
+pkt_duration=0:00:00.020168 s
+file_pkt_nb=125
+stream_pkt_nb=87
+pkt_flag_key=K
+[/FRAME]
+[FRAME]
+codec_type=audio
+samples_size=4.000 Kibyte
+stream_index=1
+size=148.000 byte
+pkt_pts=0:00:01.718277 s
+pkt_dts=0:00:01.718277 s
+pkt_duration=0:00:00.000000 s
+file_pkt_nb=126
+stream_pkt_nb=39
+pkt_flag_key=K
+[/FRAME]
+[FRAME]
+codec_type=video
+pict_type=?
+quality=0
+coded_picture_number=0
+display_picture_number=0
+interlaced_frame=0
+repeat_pict=0
+reference=3
+stream_index=0
+size=17.000 byte
+pkt_pts=0:00:01.754622 s
+pkt_dts=0:00:01.754622 s
+pkt_duration=0:00:00.020168 s
+file_pkt_nb=127
+stream_pkt_nb=88
+pkt_flag_key=K
+[/FRAME]
+[FRAME]
+codec_type=video
+pict_type=?
+quality=0
+coded_picture_number=0
+display_picture_number=0
+interlaced_frame=0
+repeat_pict=0
+reference=3
+stream_index=0
+size=621.000 byte
+pkt_pts=0:00:01.774790 s
+pkt_dts=0:00:01.774790 s
+pkt_duration=0:00:00.020168 s
+file_pkt_nb=128
+stream_pkt_nb=89
+pkt_flag_key=K
+[/FRAME]
+[FRAME]
+codec_type=audio
+samples_size=4.000 Kibyte
+stream_index=1
+size=155.000 byte
+pkt_pts=0:00:01.764717 s
+pkt_dts=0:00:01.764717 s
+pkt_duration=0:00:00.000000 s
+file_pkt_nb=129
+stream_pkt_nb=40
+pkt_flag_key=K
+[/FRAME]
+[FRAME]
+codec_type=video
+pict_type=?
+quality=0
+coded_picture_number=0
+display_picture_number=0
+interlaced_frame=0
+repeat_pict=0
+reference=3
+stream_index=0
+size=107.000 byte
+pkt_pts=0:00:01.794958 s
+pkt_dts=0:00:01.794958 s
+pkt_duration=0:00:00.020168 s
+file_pkt_nb=130
+stream_pkt_nb=90
+pkt_flag_key=K
+[/FRAME]
+[FRAME]
+codec_type=video
+pict_type=?
+quality=0
+coded_picture_number=0
+display_picture_number=0
+interlaced_frame=0
+repeat_pict=0
+reference=3
+stream_index=0
+size=516.000 byte
+pkt_pts=0:00:01.815126 s
+pkt_dts=0:00:01.815126 s
+pkt_duration=0:00:00.020168 s
+file_pkt_nb=131
+stream_pkt_nb=91
+pkt_flag_key=K
+[/FRAME]
+[FRAME]
+codec_type=video
+pict_type=?
+quality=0
+coded_picture_number=0
+display_picture_number=0
+interlaced_frame=0
+repeat_pict=0
+reference=3
+stream_index=0
+size=66.000 byte
+pkt_pts=0:00:01.835294 s
+pkt_dts=0:00:01.835294 s
+pkt_duration=0:00:00.020168 s
+file_pkt_nb=132
+stream_pkt_nb=92
+pkt_flag_key=K
+[/FRAME]
+[FRAME]
+codec_type=audio
+samples_size=4.000 Kibyte
+stream_index=1
+size=154.000 byte
+pkt_pts=0:00:01.811156 s
+pkt_dts=0:00:01.811156 s
+pkt_duration=0:00:00.000000 s
+file_pkt_nb=133
+stream_pkt_nb=41
+pkt_flag_key=K
+[/FRAME]
+[FRAME]
+codec_type=video
+pict_type=?
+quality=0
+coded_picture_number=0
+display_picture_number=0
+interlaced_frame=0
+repeat_pict=0
+reference=3
+stream_index=0
+size=948.000 byte
+pkt_pts=0:00:01.855462 s
+pkt_dts=0:00:01.855462 s
+pkt_duration=0:00:00.020168 s
+file_pkt_nb=134
+stream_pkt_nb=93
+pkt_flag_key=K
+[/FRAME]
+[FRAME]
+codec_type=video
+pict_type=?
+quality=0
+coded_picture_number=0
+display_picture_number=0
+interlaced_frame=0
+repeat_pict=0
+reference=3
+stream_index=0
+size=27.000 byte
+pkt_pts=0:00:01.875630 s
+pkt_dts=0:00:01.875630 s
+pkt_duration=0:00:00.020168 s
+file_pkt_nb=135
+stream_pkt_nb=94
+pkt_flag_key=K
+[/FRAME]
+[FRAME]
+codec_type=audio
+samples_size=4.000 Kibyte
+stream_index=1
+size=147.000 byte
+pkt_pts=0:00:01.857596 s
+pkt_dts=0:00:01.857596 s
+pkt_duration=0:00:00.000000 s
+file_pkt_nb=136
+stream_pkt_nb=42
+pkt_flag_key=K
+[/FRAME]
+[FRAME]
+codec_type=video
+pict_type=?
+quality=0
+coded_picture_number=0
+display_picture_number=0
+interlaced_frame=0
+repeat_pict=0
+reference=3
+stream_index=0
+size=1007.000 byte
+pkt_pts=0:00:01.895798 s
+pkt_dts=0:00:01.895798 s
+pkt_duration=0:00:00.020168 s
+file_pkt_nb=137
+stream_pkt_nb=95
+pkt_flag_key=K
+[/FRAME]
+[FRAME]
+codec_type=video
+pict_type=?
+quality=0
+coded_picture_number=0
+display_picture_number=0
+interlaced_frame=0
+repeat_pict=0
+reference=3
+stream_index=0
+size=36.000 byte
+pkt_pts=0:00:01.915966 s
+pkt_dts=0:00:01.915966 s
+pkt_duration=0:00:00.020168 s
+file_pkt_nb=138
+stream_pkt_nb=96
+pkt_flag_key=K
+[/FRAME]
+[FRAME]
+codec_type=audio
+samples_size=4.000 Kibyte
+stream_index=1
+size=140.000 byte
+pkt_pts=0:00:01.904036 s
+pkt_dts=0:00:01.904036 s
+pkt_duration=0:00:00.000000 s
+file_pkt_nb=139
+stream_pkt_nb=43
+pkt_flag_key=K
+[/FRAME]
+[FRAME]
+codec_type=video
+pict_type=?
+quality=0
+coded_picture_number=0
+display_picture_number=0
+interlaced_frame=0
+repeat_pict=0
+reference=3
+stream_index=0
+size=361.000 byte
+pkt_pts=0:00:01.936134 s
+pkt_dts=0:00:01.936134 s
+pkt_duration=0:00:00.020168 s
+file_pkt_nb=140
+stream_pkt_nb=97
+pkt_flag_key=K
+[/FRAME]
+[FRAME]
+codec_type=video
+pict_type=?
+quality=0
+coded_picture_number=0
+display_picture_number=0
+interlaced_frame=0
+repeat_pict=0
+reference=3
+stream_index=0
+size=37.000 byte
+pkt_pts=0:00:01.956303 s
+pkt_dts=0:00:01.956303 s
+pkt_duration=0:00:00.020168 s
+file_pkt_nb=141
+stream_pkt_nb=98
+pkt_flag_key=K
+[/FRAME]
+[FRAME]
+codec_type=video
+pict_type=?
+quality=0
+coded_picture_number=0
+display_picture_number=0
+interlaced_frame=0
+repeat_pict=0
+reference=3
+stream_index=0
+size=3.586 Kibyte
+pkt_pts=0:00:01.976471 s
+pkt_dts=0:00:01.976471 s
+pkt_duration=0:00:00.020168 s
+file_pkt_nb=142
+stream_pkt_nb=99
+pkt_flag_key=K
+[/FRAME]
+[FRAME]
+codec_type=audio
+samples_size=4.000 Kibyte
+stream_index=1
+size=140.000 byte
+pkt_pts=0:00:01.950476 s
+pkt_dts=0:00:01.950476 s
+pkt_duration=0:00:00.000000 s
+file_pkt_nb=143
+stream_pkt_nb=44
+pkt_flag_key=K
+[/FRAME]
+[FRAME]
+codec_type=video
+pict_type=?
+quality=0
+coded_picture_number=0
+display_picture_number=0
+interlaced_frame=0
+repeat_pict=0
+reference=3
+stream_index=0
+size=29.000 byte
+pkt_pts=0:00:01.996639 s
+pkt_dts=0:00:01.996639 s
+pkt_duration=0:00:00.020168 s
+file_pkt_nb=144
+stream_pkt_nb=100
+pkt_flag_key=K
+[/FRAME]
+[FRAME]
+codec_type=video
+pict_type=?
+quality=0
+coded_picture_number=0
+display_picture_number=0
+interlaced_frame=0
+repeat_pict=0
+reference=3
+stream_index=0
+size=303.000 byte
+pkt_pts=0:00:02.016807 s
+pkt_dts=0:00:02.016807 s
+pkt_duration=0:00:00.020168 s
+file_pkt_nb=145
+stream_pkt_nb=101
+pkt_flag_key=K
+[/FRAME]
+[FRAME]
+codec_type=audio
+samples_size=4.000 Kibyte
+stream_index=1
+size=146.000 byte
+pkt_pts=0:00:01.996916 s
+pkt_dts=0:00:01.996916 s
+pkt_duration=0:00:00.000000 s
+file_pkt_nb=146
+stream_pkt_nb=45
+pkt_flag_key=K
+[/FRAME]
+[FRAME]
+codec_type=video
+pict_type=?
+quality=0
+coded_picture_number=0
+display_picture_number=0
+interlaced_frame=0
+repeat_pict=0
+reference=3
+stream_index=0
+size=228.000 byte
+pkt_pts=0:00:02.036975 s
+pkt_dts=0:00:02.036975 s
+pkt_duration=0:00:00.020168 s
+file_pkt_nb=147
+stream_pkt_nb=102
+pkt_flag_key=K
+[/FRAME]
+[FRAME]
+codec_type=video
+pict_type=?
+quality=0
+coded_picture_number=0
+display_picture_number=0
+interlaced_frame=0
+repeat_pict=0
+reference=3
+stream_index=0
+size=783.000 byte
+pkt_pts=0:00:02.057143 s
+pkt_dts=0:00:02.057143 s
+pkt_duration=0:00:00.020168 s
+file_pkt_nb=148
+stream_pkt_nb=103
+pkt_flag_key=K
+[/FRAME]
+[FRAME]
+codec_type=audio
+samples_size=4.000 Kibyte
+stream_index=1
+size=158.000 byte
+pkt_pts=0:00:02.043356 s
+pkt_dts=0:00:02.043356 s
+pkt_duration=0:00:00.000000 s
+file_pkt_nb=149
+stream_pkt_nb=46
+pkt_flag_key=K
+[/FRAME]
+[FRAME]
+codec_type=video
+pict_type=?
+quality=0
+coded_picture_number=0
+display_picture_number=0
+interlaced_frame=0
+repeat_pict=0
+reference=3
+stream_index=0
+size=14.000 byte
+pkt_pts=0:00:02.077311 s
+pkt_dts=0:00:02.077311 s
+pkt_duration=0:00:00.020168 s
+file_pkt_nb=150
+stream_pkt_nb=104
+pkt_flag_key=K
+[/FRAME]
+[FRAME]
+codec_type=video
+pict_type=?
+quality=0
+coded_picture_number=0
+display_picture_number=0
+interlaced_frame=0
+repeat_pict=0
+reference=3
+stream_index=0
+size=546.000 byte
+pkt_pts=0:00:02.097479 s
+pkt_dts=0:00:02.097479 s
+pkt_duration=0:00:00.020168 s
+file_pkt_nb=151
+stream_pkt_nb=105
+pkt_flag_key=K
+[/FRAME]
+[FRAME]
+codec_type=audio
+samples_size=4.000 Kibyte
+stream_index=1
+size=156.000 byte
+pkt_pts=0:00:02.089796 s
+pkt_dts=0:00:02.089796 s
+pkt_duration=0:00:00.000000 s
+file_pkt_nb=152
+stream_pkt_nb=47
+pkt_flag_key=K
+[/FRAME]
+[FRAME]
+codec_type=video
+pict_type=?
+quality=0
+coded_picture_number=0
+display_picture_number=0
+interlaced_frame=0
+repeat_pict=0
+reference=3
+stream_index=0
+size=20.000 byte
+pkt_pts=0:00:02.117647 s
+pkt_dts=0:00:02.117647 s
+pkt_duration=0:00:00.020168 s
+file_pkt_nb=153
+stream_pkt_nb=106
+pkt_flag_key=K
+[/FRAME]
+[FRAME]
+codec_type=video
+pict_type=?
+quality=0
+coded_picture_number=0
+display_picture_number=0
+interlaced_frame=0
+repeat_pict=0
+reference=3
+stream_index=0
+size=224.000 byte
+pkt_pts=0:00:02.137815 s
+pkt_dts=0:00:02.137815 s
+pkt_duration=0:00:00.020168 s
+file_pkt_nb=154
+stream_pkt_nb=107
+pkt_flag_key=K
+[/FRAME]
+[FRAME]
+codec_type=video
+pict_type=?
+quality=0
+coded_picture_number=0
+display_picture_number=0
+interlaced_frame=0
+repeat_pict=0
+reference=3
+stream_index=0
+size=31.000 byte
+pkt_pts=0:00:02.157983 s
+pkt_dts=0:00:02.157983 s
+pkt_duration=0:00:00.020168 s
+file_pkt_nb=155
+stream_pkt_nb=108
+pkt_flag_key=K
+[/FRAME]
+[FRAME]
+codec_type=audio
+samples_size=4.000 Kibyte
+stream_index=1
+size=157.000 byte
+pkt_pts=0:00:02.136236 s
+pkt_dts=0:00:02.136236 s
+pkt_duration=0:00:00.000000 s
+file_pkt_nb=156
+stream_pkt_nb=48
+pkt_flag_key=K
+[/FRAME]
+[FRAME]
+codec_type=video
+pict_type=?
+quality=0
+coded_picture_number=0
+display_picture_number=0
+interlaced_frame=0
+repeat_pict=0
+reference=3
+stream_index=0
+size=830.000 byte
+pkt_pts=0:00:02.178151 s
+pkt_dts=0:00:02.178151 s
+pkt_duration=0:00:00.020168 s
+file_pkt_nb=157
+stream_pkt_nb=109
+pkt_flag_key=K
+[/FRAME]
+[FRAME]
+codec_type=video
+pict_type=?
+quality=0
+coded_picture_number=0
+display_picture_number=0
+interlaced_frame=0
+repeat_pict=0
+reference=3
+stream_index=0
+size=29.000 byte
+pkt_pts=0:00:02.198319 s
+pkt_dts=0:00:02.198319 s
+pkt_duration=0:00:00.020168 s
+file_pkt_nb=158
+stream_pkt_nb=110
+pkt_flag_key=K
+[/FRAME]
+[FRAME]
+codec_type=audio
+samples_size=4.000 Kibyte
+stream_index=1
+size=143.000 byte
+pkt_pts=0:00:02.182676 s
+pkt_dts=0:00:02.182676 s
+pkt_duration=0:00:00.000000 s
+file_pkt_nb=159
+stream_pkt_nb=49
+pkt_flag_key=K
+[/FRAME]
+[FRAME]
+codec_type=video
+pict_type=?
+quality=0
+coded_picture_number=0
+display_picture_number=0
+interlaced_frame=0
+repeat_pict=0
+reference=3
+stream_index=0
+size=3.083 Kibyte
+pkt_pts=0:00:02.218487 s
+pkt_dts=0:00:02.218487 s
+pkt_duration=0:00:00.020168 s
+file_pkt_nb=160
+stream_pkt_nb=111
+pkt_flag_key=K
+[/FRAME]
+[FRAME]
+codec_type=video
+pict_type=?
+quality=0
+coded_picture_number=0
+display_picture_number=0
+interlaced_frame=0
+repeat_pict=0
+reference=3
+stream_index=0
+size=27.000 byte
+pkt_pts=0:00:02.238655 s
+pkt_dts=0:00:02.238655 s
+pkt_duration=0:00:00.020168 s
+file_pkt_nb=161
+stream_pkt_nb=112
+pkt_flag_key=K
+[/FRAME]
+[FRAME]
+codec_type=audio
+samples_size=4.000 Kibyte
+stream_index=1
+size=136.000 byte
+pkt_pts=0:00:02.229116 s
+pkt_dts=0:00:02.229116 s
+pkt_duration=0:00:00.000000 s
+file_pkt_nb=162
+stream_pkt_nb=50
+pkt_flag_key=K
+[/FRAME]
+[FRAME]
+codec_type=video
+pict_type=?
+quality=0
+coded_picture_number=0
+display_picture_number=0
+interlaced_frame=0
+repeat_pict=0
+reference=3
+stream_index=0
+size=359.000 byte
+pkt_pts=0:00:02.258824 s
+pkt_dts=0:00:02.258824 s
+pkt_duration=0:00:00.020168 s
+file_pkt_nb=163
+stream_pkt_nb=113
+pkt_flag_key=K
+[/FRAME]
+[FRAME]
+codec_type=video
+pict_type=?
+quality=0
+coded_picture_number=0
+display_picture_number=0
+interlaced_frame=0
+repeat_pict=0
+reference=3
+stream_index=0
+size=175.000 byte
+pkt_pts=0:00:02.278992 s
+pkt_dts=0:00:02.278992 s
+pkt_duration=0:00:00.020168 s
+file_pkt_nb=164
+stream_pkt_nb=114
+pkt_flag_key=K
+[/FRAME]
+[FRAME]
+codec_type=video
+pict_type=?
+quality=0
+coded_picture_number=0
+display_picture_number=0
+interlaced_frame=0
+repeat_pict=0
+reference=3
+stream_index=0
+size=854.000 byte
+pkt_pts=0:00:02.299160 s
+pkt_dts=0:00:02.299160 s
+pkt_duration=0:00:00.020168 s
+file_pkt_nb=165
+stream_pkt_nb=115
+pkt_flag_key=K
+[/FRAME]
+[FRAME]
+codec_type=audio
+samples_size=4.000 Kibyte
+stream_index=1
+size=142.000 byte
+pkt_pts=0:00:02.275556 s
+pkt_dts=0:00:02.275556 s
+pkt_duration=0:00:00.000000 s
+file_pkt_nb=166
+stream_pkt_nb=51
+pkt_flag_key=K
+[/FRAME]
+[FRAME]
+codec_type=video
+pict_type=?
+quality=0
+coded_picture_number=0
+display_picture_number=0
+interlaced_frame=0
+repeat_pict=0
+reference=3
+stream_index=0
+size=673.000 byte
+pkt_pts=0:00:02.319328 s
+pkt_dts=0:00:02.319328 s
+pkt_duration=0:00:00.020168 s
+file_pkt_nb=167
+stream_pkt_nb=116
+pkt_flag_key=K
+[/FRAME]
+[FRAME]
+codec_type=video
+pict_type=?
+quality=0
+coded_picture_number=0
+display_picture_number=0
+interlaced_frame=0
+repeat_pict=0
+reference=3
+stream_index=0
+size=18.000 byte
+pkt_pts=0:00:02.339496 s
+pkt_dts=0:00:02.339496 s
+pkt_duration=0:00:00.020168 s
+file_pkt_nb=168
+stream_pkt_nb=117
+pkt_flag_key=K
+[/FRAME]
+[FRAME]
+codec_type=audio
+samples_size=4.000 Kibyte
+stream_index=1
+size=147.000 byte
+pkt_pts=0:00:02.321995 s
+pkt_dts=0:00:02.321995 s
+pkt_duration=0:00:00.000000 s
+file_pkt_nb=169
+stream_pkt_nb=52
+pkt_flag_key=K
+[/FRAME]
+[FRAME]
+codec_type=video
+pict_type=?
+quality=0
+coded_picture_number=0
+display_picture_number=0
+interlaced_frame=0
+repeat_pict=0
+reference=3
+stream_index=0
+size=142.000 byte
+pkt_pts=0:00:02.359664 s
+pkt_dts=0:00:02.359664 s
+pkt_duration=0:00:00.020168 s
+file_pkt_nb=170
+stream_pkt_nb=118
+pkt_flag_key=K
+[/FRAME]
+[FRAME]
+codec_type=video
+pict_type=?
+quality=0
+coded_picture_number=0
+display_picture_number=0
+interlaced_frame=0
+repeat_pict=0
+reference=3
+stream_index=0
+size=90.000 byte
+pkt_pts=0:00:02.379832 s
+pkt_dts=0:00:02.379832 s
+pkt_duration=0:00:00.020168 s
+file_pkt_nb=171
+stream_pkt_nb=119
+pkt_flag_key=K
+[/FRAME]
+[FRAME]
+codec_type=audio
+samples_size=4.000 Kibyte
+stream_index=1
+size=142.000 byte
+pkt_pts=0:00:02.368435 s
+pkt_dts=0:00:02.368435 s
+pkt_duration=0:00:00.000000 s
+file_pkt_nb=172
+stream_pkt_nb=53
+pkt_flag_key=K
+[/FRAME]
+[FRAME]
+codec_type=video
+pict_type=?
+quality=0
+coded_picture_number=0
+display_picture_number=0
+interlaced_frame=0
+repeat_pict=0
+reference=3
+stream_index=0
+size=489.000 byte
+pkt_pts=0:00:02.400000 s
+pkt_dts=0:00:02.400000 s
+pkt_duration=0:00:00.020168 s
+file_pkt_nb=173
+stream_pkt_nb=120
+pkt_flag_key=K
+[/FRAME]
+[FRAME]
+codec_type=video
+pict_type=?
+quality=0
+coded_picture_number=0
+display_picture_number=0
+interlaced_frame=0
+repeat_pict=0
+reference=3
+stream_index=0
+size=26.000 byte
+pkt_pts=0:00:02.420168 s
+pkt_dts=0:00:02.420168 s
+pkt_duration=0:00:00.020168 s
+file_pkt_nb=174
+stream_pkt_nb=121
+pkt_flag_key=K
+[/FRAME]
+[FRAME]
+codec_type=video
+pict_type=?
+quality=0
+coded_picture_number=0
+display_picture_number=0
+interlaced_frame=0
+repeat_pict=0
+reference=3
+stream_index=0
+size=3.339 Kibyte
+pkt_pts=0:00:02.440336 s
+pkt_dts=0:00:02.440336 s
+pkt_duration=0:00:00.020168 s
+file_pkt_nb=175
+stream_pkt_nb=122
+pkt_flag_key=K
+[/FRAME]
+[FRAME]
+codec_type=audio
+samples_size=4.000 Kibyte
+stream_index=1
+size=139.000 byte
+pkt_pts=0:00:02.414875 s
+pkt_dts=0:00:02.414875 s
+pkt_duration=0:00:00.000000 s
+file_pkt_nb=176
+stream_pkt_nb=54
+pkt_flag_key=K
+[/FRAME]
+[FRAME]
+codec_type=video
+pict_type=?
+quality=0
+coded_picture_number=0
+display_picture_number=0
+interlaced_frame=0
+repeat_pict=0
+reference=3
+stream_index=0
+size=14.000 byte
+pkt_pts=0:00:02.460504 s
+pkt_dts=0:00:02.460504 s
+pkt_duration=0:00:00.020168 s
+file_pkt_nb=177
+stream_pkt_nb=123
+pkt_flag_key=K
+[/FRAME]
+[FRAME]
+codec_type=video
+pict_type=?
+quality=0
+coded_picture_number=0
+display_picture_number=0
+interlaced_frame=0
+repeat_pict=0
+reference=3
+stream_index=0
+size=373.000 byte
+pkt_pts=0:00:02.480672 s
+pkt_dts=0:00:02.480672 s
+pkt_duration=0:00:00.020168 s
+file_pkt_nb=178
+stream_pkt_nb=124
+pkt_flag_key=K
+[/FRAME]
+[FRAME]
+codec_type=audio
+samples_size=4.000 Kibyte
+stream_index=1
+size=140.000 byte
+pkt_pts=0:00:02.461315 s
+pkt_dts=0:00:02.461315 s
+pkt_duration=0:00:00.000000 s
+file_pkt_nb=179
+stream_pkt_nb=55
+pkt_flag_key=K
+[/FRAME]
+[FRAME]
+codec_type=video
+pict_type=?
+quality=0
+coded_picture_number=0
+display_picture_number=0
+interlaced_frame=0
+repeat_pict=0
+reference=3
+stream_index=0
+size=74.000 byte
+pkt_pts=0:00:02.500840 s
+pkt_dts=0:00:02.500840 s
+pkt_duration=0:00:00.020168 s
+file_pkt_nb=180
+stream_pkt_nb=125
+pkt_flag_key=K
+[/FRAME]
+[FRAME]
+codec_type=video
+pict_type=?
+quality=0
+coded_picture_number=0
+display_picture_number=0
+interlaced_frame=0
+repeat_pict=0
+reference=3
+stream_index=0
+size=855.000 byte
+pkt_pts=0:00:02.521008 s
+pkt_dts=0:00:02.521008 s
+pkt_duration=0:00:00.020168 s
+file_pkt_nb=181
+stream_pkt_nb=126
+pkt_flag_key=K
+[/FRAME]
+[FRAME]
+codec_type=audio
+samples_size=4.000 Kibyte
+stream_index=1
+size=140.000 byte
+pkt_pts=0:00:02.507755 s
+pkt_dts=0:00:02.507755 s
+pkt_duration=0:00:00.000000 s
+file_pkt_nb=182
+stream_pkt_nb=56
+pkt_flag_key=K
+[/FRAME]
+[FRAME]
+codec_type=video
+pict_type=?
+quality=0
+coded_picture_number=0
+display_picture_number=0
+interlaced_frame=0
+repeat_pict=0
+reference=3
+stream_index=0
+size=23.000 byte
+pkt_pts=0:00:02.541176 s
+pkt_dts=0:00:02.541176 s
+pkt_duration=0:00:00.020168 s
+file_pkt_nb=183
+stream_pkt_nb=127
+pkt_flag_key=K
+[/FRAME]
+[FRAME]
+codec_type=video
+pict_type=?
+quality=0
+coded_picture_number=0
+display_picture_number=0
+interlaced_frame=0
+repeat_pict=0
+reference=3
+stream_index=0
+size=235.000 byte
+pkt_pts=0:00:02.561345 s
+pkt_dts=0:00:02.561345 s
+pkt_duration=0:00:00.020168 s
+file_pkt_nb=184
+stream_pkt_nb=128
+pkt_flag_key=K
+[/FRAME]
+[FRAME]
+codec_type=audio
+samples_size=4.000 Kibyte
+stream_index=1
+size=139.000 byte
+pkt_pts=0:00:02.554195 s
+pkt_dts=0:00:02.554195 s
+pkt_duration=0:00:00.000000 s
+file_pkt_nb=185
+stream_pkt_nb=57
+pkt_flag_key=K
+[/FRAME]
+[FRAME]
+codec_type=video
+pict_type=?
+quality=0
+coded_picture_number=0
+display_picture_number=0
+interlaced_frame=0
+repeat_pict=0
+reference=3
+stream_index=0
+size=14.000 byte
+pkt_pts=0:00:02.581513 s
+pkt_dts=0:00:02.581513 s
+pkt_duration=0:00:00.020168 s
+file_pkt_nb=186
+stream_pkt_nb=129
+pkt_flag_key=K
+[/FRAME]
+[FRAME]
+codec_type=video
+pict_type=?
+quality=0
+coded_picture_number=0
+display_picture_number=0
+interlaced_frame=0
+repeat_pict=0
+reference=3
+stream_index=0
+size=370.000 byte
+pkt_pts=0:00:02.601681 s
+pkt_dts=0:00:02.601681 s
+pkt_duration=0:00:00.020168 s
+file_pkt_nb=187
+stream_pkt_nb=130
+pkt_flag_key=K
+[/FRAME]
+[FRAME]
+codec_type=video
+pict_type=?
+quality=0
+coded_picture_number=0
+display_picture_number=0
+interlaced_frame=0
+repeat_pict=0
+reference=3
+stream_index=0
+size=87.000 byte
+pkt_pts=0:00:02.621849 s
+pkt_dts=0:00:02.621849 s
+pkt_duration=0:00:00.020168 s
+file_pkt_nb=188
+stream_pkt_nb=131
+pkt_flag_key=K
+[/FRAME]
+[FRAME]
+codec_type=audio
+samples_size=4.000 Kibyte
+stream_index=1
+size=143.000 byte
+pkt_pts=0:00:02.600635 s
+pkt_dts=0:00:02.600635 s
+pkt_duration=0:00:00.000000 s
+file_pkt_nb=189
+stream_pkt_nb=58
+pkt_flag_key=K
+[/FRAME]
+[FRAME]
+codec_type=video
+pict_type=?
+quality=0
+coded_picture_number=0
+display_picture_number=0
+interlaced_frame=0
+repeat_pict=0
+reference=3
+stream_index=0
+size=856.000 byte
+pkt_pts=0:00:02.642017 s
+pkt_dts=0:00:02.642017 s
+pkt_duration=0:00:00.020168 s
+file_pkt_nb=190
+stream_pkt_nb=132
+pkt_flag_key=K
+[/FRAME]
+[FRAME]
+codec_type=video
+pict_type=?
+quality=0
+coded_picture_number=0
+display_picture_number=0
+interlaced_frame=0
+repeat_pict=0
+reference=3
+stream_index=0
+size=22.000 byte
+pkt_pts=0:00:02.662185 s
+pkt_dts=0:00:02.662185 s
+pkt_duration=0:00:00.020168 s
+file_pkt_nb=191
+stream_pkt_nb=133
+pkt_flag_key=K
+[/FRAME]
+[FRAME]
+codec_type=audio
+samples_size=4.000 Kibyte
+stream_index=1
+size=141.000 byte
+pkt_pts=0:00:02.647075 s
+pkt_dts=0:00:02.647075 s
+pkt_duration=0:00:00.000000 s
+file_pkt_nb=192
+stream_pkt_nb=59
+pkt_flag_key=K
+[/FRAME]
+[FRAME]
+codec_type=video
+pict_type=?
+quality=0
+coded_picture_number=0
+display_picture_number=0
+interlaced_frame=0
+repeat_pict=0
+reference=3
+stream_index=0
+size=2.957 Kibyte
+pkt_pts=0:00:02.682353 s
+pkt_dts=0:00:02.682353 s
+pkt_duration=0:00:00.020168 s
+file_pkt_nb=193
+stream_pkt_nb=134
+pkt_flag_key=K
+[/FRAME]
+[FRAME]
+codec_type=video
+pict_type=?
+quality=0
+coded_picture_number=0
+display_picture_number=0
+interlaced_frame=0
+repeat_pict=0
+reference=3
+stream_index=0
+size=127.000 byte
+pkt_pts=0:00:02.702521 s
+pkt_dts=0:00:02.702521 s
+pkt_duration=0:00:00.020168 s
+file_pkt_nb=194
+stream_pkt_nb=135
+pkt_flag_key=K
+[/FRAME]
+[FRAME]
+codec_type=audio
+samples_size=4.000 Kibyte
+stream_index=1
+size=134.000 byte
+pkt_pts=0:00:02.693515 s
+pkt_dts=0:00:02.693515 s
+pkt_duration=0:00:00.000000 s
+file_pkt_nb=195
+stream_pkt_nb=60
+pkt_flag_key=K
+[/FRAME]
+[FRAME]
+codec_type=video
+pict_type=?
+quality=0
+coded_picture_number=0
+display_picture_number=0
+interlaced_frame=0
+repeat_pict=0
+reference=3
+stream_index=0
+size=18.000 byte
+pkt_pts=0:00:02.722689 s
+pkt_dts=0:00:02.722689 s
+pkt_duration=0:00:00.020168 s
+file_pkt_nb=196
+stream_pkt_nb=136
+pkt_flag_key=K
+[/FRAME]
+[FRAME]
+codec_type=video
+pict_type=?
+quality=0
+coded_picture_number=0
+display_picture_number=0
+interlaced_frame=0
+repeat_pict=0
+reference=3
+stream_index=0
+size=773.000 byte
+pkt_pts=0:00:02.742857 s
+pkt_dts=0:00:02.742857 s
+pkt_duration=0:00:00.020168 s
+file_pkt_nb=197
+stream_pkt_nb=137
+pkt_flag_key=K
+[/FRAME]
+[FRAME]
+codec_type=video
+pict_type=?
+quality=0
+coded_picture_number=0
+display_picture_number=0
+interlaced_frame=0
+repeat_pict=0
+reference=3
+stream_index=0
+size=63.000 byte
+pkt_pts=0:00:02.763025 s
+pkt_dts=0:00:02.763025 s
+pkt_duration=0:00:00.020168 s
+file_pkt_nb=198
+stream_pkt_nb=138
+pkt_flag_key=K
+[/FRAME]
+[FRAME]
+codec_type=audio
+samples_size=4.000 Kibyte
+stream_index=1
+size=124.000 byte
+pkt_pts=0:00:02.739955 s
+pkt_dts=0:00:02.739955 s
+pkt_duration=0:00:00.000000 s
+file_pkt_nb=199
+stream_pkt_nb=61
+pkt_flag_key=K
+[/FRAME]
+[FRAME]
+codec_type=video
+pict_type=?
+quality=0
+coded_picture_number=0
+display_picture_number=0
+interlaced_frame=0
+repeat_pict=0
+reference=3
+stream_index=0
+size=666.000 byte
+pkt_pts=0:00:02.783193 s
+pkt_dts=0:00:02.783193 s
+pkt_duration=0:00:00.020168 s
+file_pkt_nb=200
+stream_pkt_nb=139
+pkt_flag_key=K
+[/FRAME]
+[FRAME]
+codec_type=video
+pict_type=?
+quality=0
+coded_picture_number=0
+display_picture_number=0
+interlaced_frame=0
+repeat_pict=0
+reference=3
+stream_index=0
+size=164.000 byte
+pkt_pts=0:00:02.803361 s
+pkt_dts=0:00:02.803361 s
+pkt_duration=0:00:00.020168 s
+file_pkt_nb=201
+stream_pkt_nb=140
+pkt_flag_key=K
+[/FRAME]
+[FRAME]
+codec_type=audio
+samples_size=4.000 Kibyte
+stream_index=1
+size=132.000 byte
+pkt_pts=0:00:02.786395 s
+pkt_dts=0:00:02.786395 s
+pkt_duration=0:00:00.000000 s
+file_pkt_nb=202
+stream_pkt_nb=62
+pkt_flag_key=K
+[/FRAME]
+[FRAME]
+codec_type=video
+pict_type=?
+quality=0
+coded_picture_number=0
+display_picture_number=0
+interlaced_frame=0
+repeat_pict=0
+reference=3
+stream_index=0
+size=68.000 byte
+pkt_pts=0:00:02.823529 s
+pkt_dts=0:00:02.823529 s
+pkt_duration=0:00:00.020168 s
+file_pkt_nb=203
+stream_pkt_nb=141
+pkt_flag_key=K
+[/FRAME]
+[FRAME]
+codec_type=video
+pict_type=?
+quality=0
+coded_picture_number=0
+display_picture_number=0
+interlaced_frame=0
+repeat_pict=0
+reference=3
+stream_index=0
+size=360.000 byte
+pkt_pts=0:00:02.843697 s
+pkt_dts=0:00:02.843697 s
+pkt_duration=0:00:00.020168 s
+file_pkt_nb=204
+stream_pkt_nb=142
+pkt_flag_key=K
+[/FRAME]
+[FRAME]
+codec_type=audio
+samples_size=4.000 Kibyte
+stream_index=1
+size=134.000 byte
+pkt_pts=0:00:02.832834 s
+pkt_dts=0:00:02.832834 s
+pkt_duration=0:00:00.000000 s
+file_pkt_nb=205
+stream_pkt_nb=63
+pkt_flag_key=K
+[/FRAME]
+[FRAME]
+codec_type=video
+pict_type=?
+quality=0
+coded_picture_number=0
+display_picture_number=0
+interlaced_frame=0
+repeat_pict=0
+reference=3
+stream_index=0
+size=15.000 byte
+pkt_pts=0:00:02.863866 s
+pkt_dts=0:00:02.863866 s
+pkt_duration=0:00:00.020168 s
+file_pkt_nb=206
+stream_pkt_nb=143
+pkt_flag_key=K
+[/FRAME]
+[FRAME]
+codec_type=video
+pict_type=?
+quality=0
+coded_picture_number=0
+display_picture_number=0
+interlaced_frame=0
+repeat_pict=0
+reference=3
+stream_index=0
+size=3.622 Kibyte
+pkt_pts=0:00:02.884034 s
+pkt_dts=0:00:02.884034 s
+pkt_duration=0:00:00.020168 s
+file_pkt_nb=207
+stream_pkt_nb=144
+pkt_flag_key=K
+[/FRAME]
+[FRAME]
+codec_type=video
+pict_type=?
+quality=0
+coded_picture_number=0
+display_picture_number=0
+interlaced_frame=0
+repeat_pict=0
+reference=3
+stream_index=0
+size=372.000 byte
+pkt_pts=0:00:02.904202 s
+pkt_dts=0:00:02.904202 s
+pkt_duration=0:00:00.020168 s
+file_pkt_nb=208
+stream_pkt_nb=145
+pkt_flag_key=K
+[/FRAME]
+[FRAME]
+codec_type=audio
+samples_size=4.000 Kibyte
+stream_index=1
+size=131.000 byte
+pkt_pts=0:00:02.879274 s
+pkt_dts=0:00:02.879274 s
+pkt_duration=0:00:00.000000 s
+file_pkt_nb=209
+stream_pkt_nb=64
+pkt_flag_key=K
+[/FRAME]
+[FRAME]
+codec_type=video
+pict_type=?
+quality=0
+coded_picture_number=0
+display_picture_number=0
+interlaced_frame=0
+repeat_pict=0
+reference=3
+stream_index=0
+size=41.000 byte
+pkt_pts=0:00:02.924370 s
+pkt_dts=0:00:02.924370 s
+pkt_duration=0:00:00.020168 s
+file_pkt_nb=210
+stream_pkt_nb=146
+pkt_flag_key=K
+[/FRAME]
+[FRAME]
+codec_type=video
+pict_type=?
+quality=0
+coded_picture_number=0
+display_picture_number=0
+interlaced_frame=0
+repeat_pict=0
+reference=3
+stream_index=0
+size=823.000 byte
+pkt_pts=0:00:02.944538 s
+pkt_dts=0:00:02.944538 s
+pkt_duration=0:00:00.020168 s
+file_pkt_nb=211
+stream_pkt_nb=147
+pkt_flag_key=K
+[/FRAME]
+[FRAME]
+codec_type=audio
+samples_size=4.000 Kibyte
+stream_index=1
+size=119.000 byte
+pkt_pts=0:00:02.925714 s
+pkt_dts=0:00:02.925714 s
+pkt_duration=0:00:00.000000 s
+file_pkt_nb=212
+stream_pkt_nb=65
+pkt_flag_key=K
+[/FRAME]
+[FRAME]
+codec_type=video
+pict_type=?
+quality=0
+coded_picture_number=0
+display_picture_number=0
+interlaced_frame=0
+repeat_pict=0
+reference=3
+stream_index=0
+size=41.000 byte
+pkt_pts=0:00:02.964706 s
+pkt_dts=0:00:02.964706 s
+pkt_duration=0:00:00.020168 s
+file_pkt_nb=213
+stream_pkt_nb=148
+pkt_flag_key=K
+[/FRAME]
+[FRAME]
+codec_type=video
+pict_type=?
+quality=0
+coded_picture_number=0
+display_picture_number=0
+interlaced_frame=0
+repeat_pict=0
+reference=3
+stream_index=0
+size=193.000 byte
+pkt_pts=0:00:02.984874 s
+pkt_dts=0:00:02.984874 s
+pkt_duration=0:00:00.020168 s
+file_pkt_nb=214
+stream_pkt_nb=149
+pkt_flag_key=K
+[/FRAME]
+[FRAME]
+codec_type=audio
+samples_size=4.000 Kibyte
+stream_index=1
+size=131.000 byte
+pkt_pts=0:00:02.972154 s
+pkt_dts=0:00:02.972154 s
+pkt_duration=0:00:00.000000 s
+file_pkt_nb=215
+stream_pkt_nb=66
+pkt_flag_key=K
+[/FRAME]
+[FRAME]
+codec_type=video
+pict_type=?
+quality=0
+coded_picture_number=0
+display_picture_number=0
+interlaced_frame=0
+repeat_pict=0
+reference=3
+stream_index=0
+size=396.000 byte
+pkt_pts=0:00:03.005042 s
+pkt_dts=0:00:03.005042 s
+pkt_duration=0:00:00.020168 s
+file_pkt_nb=216
+stream_pkt_nb=150
+pkt_flag_key=K
+[/FRAME]
+[FRAME]
+codec_type=video
+pict_type=?
+quality=0
+coded_picture_number=0
+display_picture_number=0
+interlaced_frame=0
+repeat_pict=0
+reference=3
+stream_index=0
+size=20.000 byte
+pkt_pts=0:00:03.025210 s
+pkt_dts=0:00:03.025210 s
+pkt_duration=0:00:00.020168 s
+file_pkt_nb=217
+stream_pkt_nb=151
+pkt_flag_key=K
+[/FRAME]
+[FRAME]
+codec_type=audio
+samples_size=4.000 Kibyte
+stream_index=1
+size=144.000 byte
+pkt_pts=0:00:03.018594 s
+pkt_dts=0:00:03.018594 s
+pkt_duration=0:00:00.000000 s
+file_pkt_nb=218
+stream_pkt_nb=67
+pkt_flag_key=K
+[/FRAME]
+[FRAME]
+codec_type=video
+pict_type=?
+quality=0
+coded_picture_number=0
+display_picture_number=0
+interlaced_frame=0
+repeat_pict=0
+reference=3
+stream_index=0
+size=849.000 byte
+pkt_pts=0:00:03.045378 s
+pkt_dts=0:00:03.045378 s
+pkt_duration=0:00:00.020168 s
+file_pkt_nb=219
+stream_pkt_nb=152
+pkt_flag_key=K
+[/FRAME]
+[FRAME]
+codec_type=video
+pict_type=?
+quality=0
+coded_picture_number=0
+display_picture_number=0
+interlaced_frame=0
+repeat_pict=0
+reference=3
+stream_index=0
+size=15.000 byte
+pkt_pts=0:00:03.065546 s
+pkt_dts=0:00:03.065546 s
+pkt_duration=0:00:00.020168 s
+file_pkt_nb=220
+stream_pkt_nb=153
+pkt_flag_key=K
+[/FRAME]
+[FRAME]
+codec_type=video
+pict_type=?
+quality=0
+coded_picture_number=0
+display_picture_number=0
+interlaced_frame=0
+repeat_pict=0
+reference=3
+stream_index=0
+size=3.378 Kibyte
+pkt_pts=0:00:03.085714 s
+pkt_dts=0:00:03.085714 s
+pkt_duration=0:00:00.020168 s
+file_pkt_nb=221
+stream_pkt_nb=154
+pkt_flag_key=K
+[/FRAME]
+[FRAME]
+codec_type=audio
+samples_size=4.000 Kibyte
+stream_index=1
+size=129.000 byte
+pkt_pts=0:00:03.065034 s
+pkt_dts=0:00:03.065034 s
+pkt_duration=0:00:00.000000 s
+file_pkt_nb=222
+stream_pkt_nb=68
+pkt_flag_key=K
+[/FRAME]
+[FRAME]
+codec_type=video
+pict_type=?
+quality=0
+coded_picture_number=0
+display_picture_number=0
+interlaced_frame=0
+repeat_pict=0
+reference=3
+stream_index=0
+size=17.000 byte
+pkt_pts=0:00:03.105882 s
+pkt_dts=0:00:03.105882 s
+pkt_duration=0:00:00.020168 s
+file_pkt_nb=223
+stream_pkt_nb=155
+pkt_flag_key=K
+[/FRAME]
+[FRAME]
+codec_type=video
+pict_type=?
+quality=0
+coded_picture_number=0
+display_picture_number=0
+interlaced_frame=0
+repeat_pict=0
+reference=3
+stream_index=0
+size=195.000 byte
+pkt_pts=0:00:03.126050 s
+pkt_dts=0:00:03.126050 s
+pkt_duration=0:00:00.020168 s
+file_pkt_nb=224
+stream_pkt_nb=156
+pkt_flag_key=K
+[/FRAME]
+[FRAME]
+codec_type=audio
+samples_size=4.000 Kibyte
+stream_index=1
+size=138.000 byte
+pkt_pts=0:00:03.111474 s
+pkt_dts=0:00:03.111474 s
+pkt_duration=0:00:00.000000 s
+file_pkt_nb=225
+stream_pkt_nb=69
+pkt_flag_key=K
+[/FRAME]
+[FRAME]
+codec_type=video
+pict_type=?
+quality=0
+coded_picture_number=0
+display_picture_number=0
+interlaced_frame=0
+repeat_pict=0
+reference=3
+stream_index=0
+size=79.000 byte
+pkt_pts=0:00:03.146218 s
+pkt_dts=0:00:03.146218 s
+pkt_duration=0:00:00.020168 s
+file_pkt_nb=226
+stream_pkt_nb=157
+pkt_flag_key=K
+[/FRAME]
+[FRAME]
+codec_type=video
+pict_type=?
+quality=0
+coded_picture_number=0
+display_picture_number=0
+interlaced_frame=0
+repeat_pict=0
+reference=3
+stream_index=0
+size=955.000 byte
+pkt_pts=0:00:03.166387 s
+pkt_dts=0:00:03.166387 s
+pkt_duration=0:00:00.020168 s
+file_pkt_nb=227
+stream_pkt_nb=158
+pkt_flag_key=K
+[/FRAME]
+[FRAME]
+codec_type=audio
+samples_size=4.000 Kibyte
+stream_index=1
+size=134.000 byte
+pkt_pts=0:00:03.157914 s
+pkt_dts=0:00:03.157914 s
+pkt_duration=0:00:00.000000 s
+file_pkt_nb=228
+stream_pkt_nb=70
+pkt_flag_key=K
+[/FRAME]
+[FRAME]
+codec_type=video
+pict_type=?
+quality=0
+coded_picture_number=0
+display_picture_number=0
+interlaced_frame=0
+repeat_pict=0
+reference=3
+stream_index=0
+size=22.000 byte
+pkt_pts=0:00:03.186555 s
+pkt_dts=0:00:03.186555 s
+pkt_duration=0:00:00.020168 s
+file_pkt_nb=229
+stream_pkt_nb=159
+pkt_flag_key=K
+[/FRAME]
+[FRAME]
+codec_type=video
+pict_type=?
+quality=0
+coded_picture_number=0
+display_picture_number=0
+interlaced_frame=0
+repeat_pict=0
+reference=3
+stream_index=0
+size=197.000 byte
+pkt_pts=0:00:03.206723 s
+pkt_dts=0:00:03.206723 s
+pkt_duration=0:00:00.020168 s
+file_pkt_nb=230
+stream_pkt_nb=160
+pkt_flag_key=K
+[/FRAME]
+[FRAME]
+codec_type=video
+pict_type=?
+quality=0
+coded_picture_number=0
+display_picture_number=0
+interlaced_frame=0
+repeat_pict=0
+reference=3
+stream_index=0
+size=451.000 byte
+pkt_pts=0:00:03.226891 s
+pkt_dts=0:00:03.226891 s
+pkt_duration=0:00:00.020168 s
+file_pkt_nb=231
+stream_pkt_nb=161
+pkt_flag_key=K
+[/FRAME]
+[FRAME]
+codec_type=audio
+samples_size=4.000 Kibyte
+stream_index=1
+size=128.000 byte
+pkt_pts=0:00:03.204354 s
+pkt_dts=0:00:03.204354 s
+pkt_duration=0:00:00.000000 s
+file_pkt_nb=232
+stream_pkt_nb=71
+pkt_flag_key=K
+[/FRAME]
+[FRAME]
+codec_type=video
+pict_type=?
+quality=0
+coded_picture_number=0
+display_picture_number=0
+interlaced_frame=0
+repeat_pict=0
+reference=3
+stream_index=0
+size=48.000 byte
+pkt_pts=0:00:03.247059 s
+pkt_dts=0:00:03.247059 s
+pkt_duration=0:00:00.020168 s
+file_pkt_nb=233
+stream_pkt_nb=162
+pkt_flag_key=K
+[/FRAME]
+[FRAME]
+codec_type=video
+pict_type=?
+quality=0
+coded_picture_number=0
+display_picture_number=0
+interlaced_frame=0
+repeat_pict=0
+reference=3
+stream_index=0
+size=400.000 byte
+pkt_pts=0:00:03.267227 s
+pkt_dts=0:00:03.267227 s
+pkt_duration=0:00:00.020168 s
+file_pkt_nb=234
+stream_pkt_nb=163
+pkt_flag_key=K
+[/FRAME]
+[FRAME]
+codec_type=audio
+samples_size=4.000 Kibyte
+stream_index=1
+size=137.000 byte
+pkt_pts=0:00:03.250794 s
+pkt_dts=0:00:03.250794 s
+pkt_duration=0:00:00.000000 s
+file_pkt_nb=235
+stream_pkt_nb=72
+pkt_flag_key=K
+[/FRAME]
+[FRAME]
+codec_type=video
+pict_type=?
+quality=0
+coded_picture_number=0
+display_picture_number=0
+interlaced_frame=0
+repeat_pict=0
+reference=3
+stream_index=0
+size=3.396 Kibyte
+pkt_pts=0:00:03.287395 s
+pkt_dts=0:00:03.287395 s
+pkt_duration=0:00:00.020168 s
+file_pkt_nb=236
+stream_pkt_nb=164
+pkt_flag_key=K
+[/FRAME]
+[FRAME]
+codec_type=video
+pict_type=?
+quality=0
+coded_picture_number=0
+display_picture_number=0
+interlaced_frame=0
+repeat_pict=0
+reference=3
+stream_index=0
+size=458.000 byte
+pkt_pts=0:00:03.307563 s
+pkt_dts=0:00:03.307563 s
+pkt_duration=0:00:00.020168 s
+file_pkt_nb=237
+stream_pkt_nb=165
+pkt_flag_key=K
+[/FRAME]
+[FRAME]
+codec_type=audio
+samples_size=4.000 Kibyte
+stream_index=1
+size=139.000 byte
+pkt_pts=0:00:03.297234 s
+pkt_dts=0:00:03.297234 s
+pkt_duration=0:00:00.000000 s
+file_pkt_nb=238
+stream_pkt_nb=73
+pkt_flag_key=K
+[/FRAME]
+[FRAME]
+codec_type=video
+pict_type=?
+quality=0
+coded_picture_number=0
+display_picture_number=0
+interlaced_frame=0
+repeat_pict=0
+reference=3
+stream_index=0
+size=495.000 byte
+pkt_pts=0:00:03.327731 s
+pkt_dts=0:00:03.327731 s
+pkt_duration=0:00:00.020168 s
+file_pkt_nb=239
+stream_pkt_nb=166
+pkt_flag_key=K
+[/FRAME]
+[FRAME]
+codec_type=video
+pict_type=?
+quality=0
+coded_picture_number=0
+display_picture_number=0
+interlaced_frame=0
+repeat_pict=0
+reference=3
+stream_index=0
+size=188.000 byte
+pkt_pts=0:00:03.347899 s
+pkt_dts=0:00:03.347899 s
+pkt_duration=0:00:00.020168 s
+file_pkt_nb=240
+stream_pkt_nb=167
+pkt_flag_key=K
+[/FRAME]
+[FRAME]
+codec_type=video
+pict_type=?
+quality=0
+coded_picture_number=0
+display_picture_number=0
+interlaced_frame=0
+repeat_pict=0
+reference=3
+stream_index=0
+size=309.000 byte
+pkt_pts=0:00:03.368067 s
+pkt_dts=0:00:03.368067 s
+pkt_duration=0:00:00.020168 s
+file_pkt_nb=241
+stream_pkt_nb=168
+pkt_flag_key=K
+[/FRAME]
+[FRAME]
+codec_type=audio
+samples_size=4.000 Kibyte
+stream_index=1
+size=135.000 byte
+pkt_pts=0:00:03.343673 s
+pkt_dts=0:00:03.343673 s
+pkt_duration=0:00:00.000000 s
+file_pkt_nb=242
+stream_pkt_nb=74
+pkt_flag_key=K
+[/FRAME]
+[FRAME]
+codec_type=video
+pict_type=?
+quality=0
+coded_picture_number=0
+display_picture_number=0
+interlaced_frame=0
+repeat_pict=0
+reference=3
+stream_index=0
+size=97.000 byte
+pkt_pts=0:00:03.388235 s
+pkt_dts=0:00:03.388235 s
+pkt_duration=0:00:00.020168 s
+file_pkt_nb=243
+stream_pkt_nb=169
+pkt_flag_key=K
+[/FRAME]
+[FRAME]
+codec_type=video
+pict_type=?
+quality=0
+coded_picture_number=0
+display_picture_number=0
+interlaced_frame=0
+repeat_pict=0
+reference=3
+stream_index=0
+size=674.000 byte
+pkt_pts=0:00:03.408403 s
+pkt_dts=0:00:03.408403 s
+pkt_duration=0:00:00.020168 s
+file_pkt_nb=244
+stream_pkt_nb=170
+pkt_flag_key=K
+[/FRAME]
+[FRAME]
+codec_type=audio
+samples_size=4.000 Kibyte
+stream_index=1
+size=145.000 byte
+pkt_pts=0:00:03.390113 s
+pkt_dts=0:00:03.390113 s
+pkt_duration=0:00:00.000000 s
+file_pkt_nb=245
+stream_pkt_nb=75
+pkt_flag_key=K
+[/FRAME]
+[FRAME]
+codec_type=video
+pict_type=?
+quality=0
+coded_picture_number=0
+display_picture_number=0
+interlaced_frame=0
+repeat_pict=0
+reference=3
+stream_index=0
+size=18.000 byte
+pkt_pts=0:00:03.428571 s
+pkt_dts=0:00:03.428571 s
+pkt_duration=0:00:00.020168 s
+file_pkt_nb=246
+stream_pkt_nb=171
+pkt_flag_key=K
+[/FRAME]
+[FRAME]
+codec_type=video
+pict_type=?
+quality=0
+coded_picture_number=0
+display_picture_number=0
+interlaced_frame=0
+repeat_pict=0
+reference=3
+stream_index=0
+size=3.215 Kibyte
+pkt_pts=0:00:03.448739 s
+pkt_dts=0:00:03.448739 s
+pkt_duration=0:00:00.020168 s
+file_pkt_nb=247
+stream_pkt_nb=172
+pkt_flag_key=K
+[/FRAME]
+[FRAME]
+codec_type=audio
+samples_size=4.000 Kibyte
+stream_index=1
+size=131.000 byte
+pkt_pts=0:00:03.436553 s
+pkt_dts=0:00:03.436553 s
+pkt_duration=0:00:00.000000 s
+file_pkt_nb=248
+stream_pkt_nb=76
+pkt_flag_key=K
+[/FRAME]
+[FRAME]
+codec_type=video
+pict_type=?
+quality=0
+coded_picture_number=0
+display_picture_number=0
+interlaced_frame=0
+repeat_pict=0
+reference=3
+stream_index=0
+size=531.000 byte
+pkt_pts=0:00:03.468908 s
+pkt_dts=0:00:03.468908 s
+pkt_duration=0:00:00.020168 s
+file_pkt_nb=249
+stream_pkt_nb=173
+pkt_flag_key=K
+[/FRAME]
+[FRAME]
+codec_type=video
+pict_type=?
+quality=0
+coded_picture_number=0
+display_picture_number=0
+interlaced_frame=0
+repeat_pict=0
+reference=3
+stream_index=0
+size=45.000 byte
+pkt_pts=0:00:03.489076 s
+pkt_dts=0:00:03.489076 s
+pkt_duration=0:00:00.020168 s
+file_pkt_nb=250
+stream_pkt_nb=174
+pkt_flag_key=K
+[/FRAME]
+[FRAME]
+codec_type=video
+pict_type=?
+quality=0
+coded_picture_number=0
+display_picture_number=0
+interlaced_frame=0
+repeat_pict=0
+reference=3
+stream_index=0
+size=715.000 byte
+pkt_pts=0:00:03.509244 s
+pkt_dts=0:00:03.509244 s
+pkt_duration=0:00:00.020168 s
+file_pkt_nb=251
+stream_pkt_nb=175
+pkt_flag_key=K
+[/FRAME]
+[FRAME]
+codec_type=audio
+samples_size=4.000 Kibyte
+stream_index=1
+size=143.000 byte
+pkt_pts=0:00:03.482993 s
+pkt_dts=0:00:03.482993 s
+pkt_duration=0:00:00.000000 s
+file_pkt_nb=252
+stream_pkt_nb=77
+pkt_flag_key=K
+[/FRAME]
+[FRAME]
+codec_type=video
+pict_type=?
+quality=0
+coded_picture_number=0
+display_picture_number=0
+interlaced_frame=0
+repeat_pict=0
+reference=3
+stream_index=0
+size=27.000 byte
+pkt_pts=0:00:03.529412 s
+pkt_dts=0:00:03.529412 s
+pkt_duration=0:00:00.020168 s
+file_pkt_nb=253
+stream_pkt_nb=176
+pkt_flag_key=K
+[/FRAME]
+[FRAME]
+codec_type=video
+pict_type=?
+quality=0
+coded_picture_number=0
+display_picture_number=0
+interlaced_frame=0
+repeat_pict=0
+reference=3
+stream_index=0
+size=178.000 byte
+pkt_pts=0:00:03.549580 s
+pkt_dts=0:00:03.549580 s
+pkt_duration=0:00:00.020168 s
+file_pkt_nb=254
+stream_pkt_nb=177
+pkt_flag_key=K
+[/FRAME]
+[FRAME]
+codec_type=audio
+samples_size=4.000 Kibyte
+stream_index=1
+size=147.000 byte
+pkt_pts=0:00:03.529433 s
+pkt_dts=0:00:03.529433 s
+pkt_duration=0:00:00.000000 s
+file_pkt_nb=255
+stream_pkt_nb=78
+pkt_flag_key=K
+[/FRAME]
+[FRAME]
+codec_type=video
+pict_type=?
+quality=0
+coded_picture_number=0
+display_picture_number=0
+interlaced_frame=0
+repeat_pict=0
+reference=3
+stream_index=0
+size=57.000 byte
+pkt_pts=0:00:03.569748 s
+pkt_dts=0:00:03.569748 s
+pkt_duration=0:00:00.020168 s
+file_pkt_nb=256
+stream_pkt_nb=178
+pkt_flag_key=K
+[/FRAME]
+[FRAME]
+codec_type=video
+pict_type=?
+quality=0
+coded_picture_number=0
+display_picture_number=0
+interlaced_frame=0
+repeat_pict=0
+reference=3
+stream_index=0
+size=1.110 Kibyte
+pkt_pts=0:00:03.589916 s
+pkt_dts=0:00:03.589916 s
+pkt_duration=0:00:00.020168 s
+file_pkt_nb=257
+stream_pkt_nb=179
+pkt_flag_key=K
+[/FRAME]
+[FRAME]
+codec_type=audio
+samples_size=4.000 Kibyte
+stream_index=1
+size=143.000 byte
+pkt_pts=0:00:03.575873 s
+pkt_dts=0:00:03.575873 s
+pkt_duration=0:00:00.000000 s
+file_pkt_nb=258
+stream_pkt_nb=79
+pkt_flag_key=K
+[/FRAME]
+[FRAME]
+codec_type=video
+pict_type=?
+quality=0
+coded_picture_number=0
+display_picture_number=0
+interlaced_frame=0
+repeat_pict=0
+reference=3
+stream_index=0
+size=37.000 byte
+pkt_pts=0:00:03.610084 s
+pkt_dts=0:00:03.610084 s
+pkt_duration=0:00:00.020168 s
+file_pkt_nb=259
+stream_pkt_nb=180
+pkt_flag_key=K
+[/FRAME]
+[FRAME]
+codec_type=video
+pict_type=?
+quality=0
+coded_picture_number=0
+display_picture_number=0
+interlaced_frame=0
+repeat_pict=0
+reference=3
+stream_index=0
+size=279.000 byte
+pkt_pts=0:00:03.630252 s
+pkt_dts=0:00:03.630252 s
+pkt_duration=0:00:00.020168 s
+file_pkt_nb=260
+stream_pkt_nb=181
+pkt_flag_key=K
+[/FRAME]
+[FRAME]
+codec_type=audio
+samples_size=4.000 Kibyte
+stream_index=1
+size=146.000 byte
+pkt_pts=0:00:03.622313 s
+pkt_dts=0:00:03.622313 s
+pkt_duration=0:00:00.000000 s
+file_pkt_nb=261
+stream_pkt_nb=80
+pkt_flag_key=K
+[/FRAME]
+[FRAME]
+codec_type=video
+pict_type=?
+quality=0
+coded_picture_number=0
+display_picture_number=0
+interlaced_frame=0
+repeat_pict=0
+reference=3
+stream_index=0
+size=15.000 byte
+pkt_pts=0:00:03.650420 s
+pkt_dts=0:00:03.650420 s
+pkt_duration=0:00:00.020168 s
+file_pkt_nb=262
+stream_pkt_nb=182
+pkt_flag_key=K
+[/FRAME]
+[FRAME]
+codec_type=video
+pict_type=?
+quality=0
+coded_picture_number=0
+display_picture_number=0
+interlaced_frame=0
+repeat_pict=0
+reference=3
+stream_index=0
+size=4.007 Kibyte
+pkt_pts=0:00:03.670588 s
+pkt_dts=0:00:03.670588 s
+pkt_duration=0:00:00.020168 s
+file_pkt_nb=263
+stream_pkt_nb=183
+pkt_flag_key=K
+[/FRAME]
+[FRAME]
+codec_type=video
+pict_type=?
+quality=0
+coded_picture_number=0
+display_picture_number=0
+interlaced_frame=0
+repeat_pict=0
+reference=3
+stream_index=0
+size=641.000 byte
+pkt_pts=0:00:03.690756 s
+pkt_dts=0:00:03.690756 s
+pkt_duration=0:00:00.020168 s
+file_pkt_nb=264
+stream_pkt_nb=184
+pkt_flag_key=K
+[/FRAME]
+[FRAME]
+codec_type=audio
+samples_size=4.000 Kibyte
+stream_index=1
+size=152.000 byte
+pkt_pts=0:00:03.668753 s
+pkt_dts=0:00:03.668753 s
+pkt_duration=0:00:00.000000 s
+file_pkt_nb=265
+stream_pkt_nb=81
+pkt_flag_key=K
+[/FRAME]
+[FRAME]
+codec_type=video
+pict_type=?
+quality=0
+coded_picture_number=0
+display_picture_number=0
+interlaced_frame=0
+repeat_pict=0
+reference=3
+stream_index=0
+size=15.000 byte
+pkt_pts=0:00:03.710924 s
+pkt_dts=0:00:03.710924 s
+pkt_duration=0:00:00.020168 s
+file_pkt_nb=266
+stream_pkt_nb=185
+pkt_flag_key=K
+[/FRAME]
+[FRAME]
+codec_type=video
+pict_type=?
+quality=0
+coded_picture_number=0
+display_picture_number=0
+interlaced_frame=0
+repeat_pict=0
+reference=3
+stream_index=0
+size=226.000 byte
+pkt_pts=0:00:03.731092 s
+pkt_dts=0:00:03.731092 s
+pkt_duration=0:00:00.020168 s
+file_pkt_nb=267
+stream_pkt_nb=186
+pkt_flag_key=K
+[/FRAME]
+[FRAME]
+codec_type=audio
+samples_size=4.000 Kibyte
+stream_index=1
+size=137.000 byte
+pkt_pts=0:00:03.715193 s
+pkt_dts=0:00:03.715193 s
+pkt_duration=0:00:00.000000 s
+file_pkt_nb=268
+stream_pkt_nb=82
+pkt_flag_key=K
+[/FRAME]
+[FRAME]
+codec_type=video
+pict_type=?
+quality=0
+coded_picture_number=0
+display_picture_number=0
+interlaced_frame=0
+repeat_pict=0
+reference=3
+stream_index=0
+size=374.000 byte
+pkt_pts=0:00:03.751261 s
+pkt_dts=0:00:03.751261 s
+pkt_duration=0:00:00.020168 s
+file_pkt_nb=269
+stream_pkt_nb=187
+pkt_flag_key=K
+[/FRAME]
+[FRAME]
+codec_type=video
+pict_type=?
+quality=0
+coded_picture_number=0
+display_picture_number=0
+interlaced_frame=0
+repeat_pict=0
+reference=3
+stream_index=0
+size=253.000 byte
+pkt_pts=0:00:03.771429 s
+pkt_dts=0:00:03.771429 s
+pkt_duration=0:00:00.020168 s
+file_pkt_nb=270
+stream_pkt_nb=188
+pkt_flag_key=K
+[/FRAME]
+[FRAME]
+codec_type=audio
+samples_size=4.000 Kibyte
+stream_index=1
+size=147.000 byte
+pkt_pts=0:00:03.761633 s
+pkt_dts=0:00:03.761633 s
+pkt_duration=0:00:00.000000 s
+file_pkt_nb=271
+stream_pkt_nb=83
+pkt_flag_key=K
+[/FRAME]
+[FRAME]
+codec_type=video
+pict_type=?
+quality=0
+coded_picture_number=0
+display_picture_number=0
+interlaced_frame=0
+repeat_pict=0
+reference=3
+stream_index=0
+size=97.000 byte
+pkt_pts=0:00:03.791597 s
+pkt_dts=0:00:03.791597 s
+pkt_duration=0:00:00.020168 s
+file_pkt_nb=272
+stream_pkt_nb=189
+pkt_flag_key=K
+[/FRAME]
+[FRAME]
+codec_type=video
+pict_type=?
+quality=0
+coded_picture_number=0
+display_picture_number=0
+interlaced_frame=0
+repeat_pict=0
+reference=3
+stream_index=0
+size=684.000 byte
+pkt_pts=0:00:03.811765 s
+pkt_dts=0:00:03.811765 s
+pkt_duration=0:00:00.020168 s
+file_pkt_nb=273
+stream_pkt_nb=190
+pkt_flag_key=K
+[/FRAME]
+[FRAME]
+codec_type=video
+pict_type=?
+quality=0
+coded_picture_number=0
+display_picture_number=0
+interlaced_frame=0
+repeat_pict=0
+reference=3
+stream_index=0
+size=20.000 byte
+pkt_pts=0:00:03.831933 s
+pkt_dts=0:00:03.831933 s
+pkt_duration=0:00:00.020168 s
+file_pkt_nb=274
+stream_pkt_nb=191
+pkt_flag_key=K
+[/FRAME]
+[FRAME]
+codec_type=audio
+samples_size=4.000 Kibyte
+stream_index=1
+size=153.000 byte
+pkt_pts=0:00:03.808073 s
+pkt_dts=0:00:03.808073 s
+pkt_duration=0:00:00.000000 s
+file_pkt_nb=275
+stream_pkt_nb=84
+pkt_flag_key=K
+[/FRAME]
+[FRAME]
+codec_type=video
+pict_type=?
+quality=0
+coded_picture_number=0
+display_picture_number=0
+interlaced_frame=0
+repeat_pict=0
+reference=3
+stream_index=0
+size=2.521 Kibyte
+pkt_pts=0:00:03.852101 s
+pkt_dts=0:00:03.852101 s
+pkt_duration=0:00:00.020168 s
+file_pkt_nb=276
+stream_pkt_nb=192
+pkt_flag_key=K
+[/FRAME]
+[FRAME]
+codec_type=video
+pict_type=?
+quality=0
+coded_picture_number=0
+display_picture_number=0
+interlaced_frame=0
+repeat_pict=0
+reference=3
+stream_index=0
+size=421.000 byte
+pkt_pts=0:00:03.872269 s
+pkt_dts=0:00:03.872269 s
+pkt_duration=0:00:00.020168 s
+file_pkt_nb=277
+stream_pkt_nb=193
+pkt_flag_key=K
+[/FRAME]
+[FRAME]
+codec_type=audio
+samples_size=4.000 Kibyte
+stream_index=1
+size=154.000 byte
+pkt_pts=0:00:03.854512 s
+pkt_dts=0:00:03.854512 s
+pkt_duration=0:00:00.000000 s
+file_pkt_nb=278
+stream_pkt_nb=85
+pkt_flag_key=K
+[/FRAME]
+[FRAME]
+codec_type=video
+pict_type=?
+quality=0
+coded_picture_number=0
+display_picture_number=0
+interlaced_frame=0
+repeat_pict=0
+reference=3
+stream_index=0
+size=99.000 byte
+pkt_pts=0:00:03.892437 s
+pkt_dts=0:00:03.892437 s
+pkt_duration=0:00:00.020168 s
+file_pkt_nb=279
+stream_pkt_nb=194
+pkt_flag_key=K
+[/FRAME]
+[FRAME]
+codec_type=video
+pict_type=?
+quality=0
+coded_picture_number=0
+display_picture_number=0
+interlaced_frame=0
+repeat_pict=0
+reference=3
+stream_index=0
+size=266.000 byte
+pkt_pts=0:00:03.912605 s
+pkt_dts=0:00:03.912605 s
+pkt_duration=0:00:00.020168 s
+file_pkt_nb=280
+stream_pkt_nb=195
+pkt_flag_key=K
+[/FRAME]
+[FRAME]
+codec_type=audio
+samples_size=4.000 Kibyte
+stream_index=1
+size=153.000 byte
+pkt_pts=0:00:03.900952 s
+pkt_dts=0:00:03.900952 s
+pkt_duration=0:00:00.000000 s
+file_pkt_nb=281
+stream_pkt_nb=86
+pkt_flag_key=K
+[/FRAME]
+[FRAME]
+codec_type=video
+pict_type=?
+quality=0
+coded_picture_number=0
+display_picture_number=0
+interlaced_frame=0
+repeat_pict=0
+reference=3
+stream_index=0
+size=45.000 byte
+pkt_pts=0:00:03.932773 s
+pkt_dts=0:00:03.932773 s
+pkt_duration=0:00:00.020168 s
+file_pkt_nb=282
+stream_pkt_nb=196
+pkt_flag_key=K
+[/FRAME]
+[FRAME]
+codec_type=video
+pict_type=?
+quality=0
+coded_picture_number=0
+display_picture_number=0
+interlaced_frame=0
+repeat_pict=0
+reference=3
+stream_index=0
+size=710.000 byte
+pkt_pts=0:00:03.952941 s
+pkt_dts=0:00:03.952941 s
+pkt_duration=0:00:00.020168 s
+file_pkt_nb=283
+stream_pkt_nb=197
+pkt_flag_key=K
+[/FRAME]
+[FRAME]
+codec_type=video
+pict_type=?
+quality=0
+coded_picture_number=0
+display_picture_number=0
+interlaced_frame=0
+repeat_pict=0
+reference=3
+stream_index=0
+size=24.000 byte
+pkt_pts=0:00:03.973109 s
+pkt_dts=0:00:03.973109 s
+pkt_duration=0:00:00.020168 s
+file_pkt_nb=284
+stream_pkt_nb=198
+pkt_flag_key=K
+[/FRAME]
+[FRAME]
+codec_type=audio
+samples_size=4.000 Kibyte
+stream_index=1
+size=157.000 byte
+pkt_pts=0:00:03.947392 s
+pkt_dts=0:00:03.947392 s
+pkt_duration=0:00:00.000000 s
+file_pkt_nb=285
+stream_pkt_nb=87
+pkt_flag_key=K
+[/FRAME]
+[FRAME]
+codec_type=video
+pict_type=?
+quality=0
+coded_picture_number=0
+display_picture_number=0
+interlaced_frame=0
+repeat_pict=0
+reference=3
+stream_index=0
+size=918.000 byte
+pkt_pts=0:00:03.993277 s
+pkt_dts=0:00:03.993277 s
+pkt_duration=0:00:00.020168 s
+file_pkt_nb=286
+stream_pkt_nb=199
+pkt_flag_key=K
+[/FRAME]
+[FRAME]
+codec_type=video
+pict_type=?
+quality=0
+coded_picture_number=0
+display_picture_number=0
+interlaced_frame=0
+repeat_pict=0
+reference=3
+stream_index=0
+size=24.000 byte
+pkt_pts=0:00:04.013445 s
+pkt_dts=0:00:04.013445 s
+pkt_duration=0:00:00.020168 s
+file_pkt_nb=287
+stream_pkt_nb=200
+pkt_flag_key=K
+[/FRAME]
+[FRAME]
+codec_type=audio
+samples_size=4.000 Kibyte
+stream_index=1
+size=165.000 byte
+pkt_pts=0:00:03.993832 s
+pkt_dts=0:00:03.993832 s
+pkt_duration=0:00:00.000000 s
+file_pkt_nb=288
+stream_pkt_nb=88
+pkt_flag_key=K
+[/FRAME]
+[FRAME]
+codec_type=video
+pict_type=?
+quality=0
+coded_picture_number=0
+display_picture_number=0
+interlaced_frame=0
+repeat_pict=0
+reference=3
+stream_index=0
+size=198.000 byte
+pkt_pts=0:00:04.033613 s
+pkt_dts=0:00:04.033613 s
+pkt_duration=0:00:00.020168 s
+file_pkt_nb=289
+stream_pkt_nb=201
+pkt_flag_key=K
+[/FRAME]
+[FRAME]
+codec_type=video
+pict_type=?
+quality=0
+coded_picture_number=0
+display_picture_number=0
+interlaced_frame=0
+repeat_pict=0
+reference=3
+stream_index=0
+size=32.000 byte
+pkt_pts=0:00:04.053782 s
+pkt_dts=0:00:04.053782 s
+pkt_duration=0:00:00.020168 s
+file_pkt_nb=290
+stream_pkt_nb=202
+pkt_flag_key=K
+[/FRAME]
+[FRAME]
+codec_type=audio
+samples_size=4.000 Kibyte
+stream_index=1
+size=164.000 byte
+pkt_pts=0:00:04.040272 s
+pkt_dts=0:00:04.040272 s
+pkt_duration=0:00:00.000000 s
+file_pkt_nb=291
+stream_pkt_nb=89
+pkt_flag_key=K
+[/FRAME]
+[FRAME]
+codec_type=video
+pict_type=?
+quality=0
+coded_picture_number=0
+display_picture_number=0
+interlaced_frame=0
+repeat_pict=0
+reference=3
+stream_index=0
+size=4.324 Kibyte
+pkt_pts=0:00:04.073950 s
+pkt_dts=0:00:04.073950 s
+pkt_duration=0:00:00.020168 s
+file_pkt_nb=292
+stream_pkt_nb=203
+pkt_flag_key=K
+[/FRAME]
+[FRAME]
+codec_type=video
+pict_type=?
+quality=0
+coded_picture_number=0
+display_picture_number=0
+interlaced_frame=0
+repeat_pict=0
+reference=3
+stream_index=0
+size=249.000 byte
+pkt_pts=0:00:04.094118 s
+pkt_dts=0:00:04.094118 s
+pkt_duration=0:00:00.020168 s
+file_pkt_nb=293
+stream_pkt_nb=204
+pkt_flag_key=K
+[/FRAME]
+[FRAME]
+codec_type=audio
+samples_size=4.000 Kibyte
+stream_index=1
+size=162.000 byte
+pkt_pts=0:00:04.086712 s
+pkt_dts=0:00:04.086712 s
+pkt_duration=0:00:00.000000 s
+file_pkt_nb=294
+stream_pkt_nb=90
+pkt_flag_key=K
+[/FRAME]
+[FRAME]
+codec_type=video
+pict_type=?
+quality=0
+coded_picture_number=0
+display_picture_number=0
+interlaced_frame=0
+repeat_pict=0
+reference=3
+stream_index=0
+size=20.000 byte
+pkt_pts=0:00:04.114286 s
+pkt_dts=0:00:04.114286 s
+pkt_duration=0:00:00.020168 s
+file_pkt_nb=295
+stream_pkt_nb=205
+pkt_flag_key=K
+[/FRAME]
+[FRAME]
+codec_type=video
+pict_type=?
+quality=0
+coded_picture_number=0
+display_picture_number=0
+interlaced_frame=0
+repeat_pict=0
+reference=3
+stream_index=0
+size=721.000 byte
+pkt_pts=0:00:04.134454 s
+pkt_dts=0:00:04.134454 s
+pkt_duration=0:00:00.020168 s
+file_pkt_nb=296
+stream_pkt_nb=206
+pkt_flag_key=K
+[/FRAME]
+[FRAME]
+codec_type=video
+pict_type=?
+quality=0
+coded_picture_number=0
+display_picture_number=0
+interlaced_frame=0
+repeat_pict=0
+reference=3
+stream_index=0
+size=32.000 byte
+pkt_pts=0:00:04.154622 s
+pkt_dts=0:00:04.154622 s
+pkt_duration=0:00:00.020168 s
+file_pkt_nb=297
+stream_pkt_nb=207
+pkt_flag_key=K
+[/FRAME]
+[FRAME]
+codec_type=audio
+samples_size=4.000 Kibyte
+stream_index=1
+size=159.000 byte
+pkt_pts=0:00:04.133152 s
+pkt_dts=0:00:04.133152 s
+pkt_duration=0:00:00.000000 s
+file_pkt_nb=298
+stream_pkt_nb=91
+pkt_flag_key=K
+[/FRAME]
+[FRAME]
+codec_type=video
+pict_type=?
+quality=0
+coded_picture_number=0
+display_picture_number=0
+interlaced_frame=0
+repeat_pict=0
+reference=3
+stream_index=0
+size=522.000 byte
+pkt_pts=0:00:04.174790 s
+pkt_dts=0:00:04.174790 s
+pkt_duration=0:00:00.020168 s
+file_pkt_nb=299
+stream_pkt_nb=208
+pkt_flag_key=K
+[/FRAME]
+[FRAME]
+codec_type=video
+pict_type=?
+quality=0
+coded_picture_number=0
+display_picture_number=0
+interlaced_frame=0
+repeat_pict=0
+reference=3
+stream_index=0
+size=17.000 byte
+pkt_pts=0:00:04.194958 s
+pkt_dts=0:00:04.194958 s
+pkt_duration=0:00:00.020168 s
+file_pkt_nb=300
+stream_pkt_nb=209
+pkt_flag_key=K
+[/FRAME]
+[FRAME]
+codec_type=audio
+samples_size=4.000 Kibyte
+stream_index=1
+size=158.000 byte
+pkt_pts=0:00:04.179592 s
+pkt_dts=0:00:04.179592 s
+pkt_duration=0:00:00.000000 s
+file_pkt_nb=301
+stream_pkt_nb=92
+pkt_flag_key=K
+[/FRAME]
+[FRAME]
+codec_type=video
+pict_type=?
+quality=0
+coded_picture_number=0
+display_picture_number=0
+interlaced_frame=0
+repeat_pict=0
+reference=3
+stream_index=0
+size=120.000 byte
+pkt_pts=0:00:04.215126 s
+pkt_dts=0:00:04.215126 s
+pkt_duration=0:00:00.020168 s
+file_pkt_nb=302
+stream_pkt_nb=210
+pkt_flag_key=K
+[/FRAME]
+[FRAME]
+codec_type=video
+pict_type=?
+quality=0
+coded_picture_number=0
+display_picture_number=0
+interlaced_frame=0
+repeat_pict=0
+reference=3
+stream_index=0
+size=59.000 byte
+pkt_pts=0:00:04.235294 s
+pkt_dts=0:00:04.235294 s
+pkt_duration=0:00:00.020168 s
+file_pkt_nb=303
+stream_pkt_nb=211
+pkt_flag_key=K
+[/FRAME]
+[FRAME]
+codec_type=audio
+samples_size=4.000 Kibyte
+stream_index=1
+size=160.000 byte
+pkt_pts=0:00:04.226032 s
+pkt_dts=0:00:04.226032 s
+pkt_duration=0:00:00.000000 s
+file_pkt_nb=304
+stream_pkt_nb=93
+pkt_flag_key=K
+[/FRAME]
+[FRAME]
+codec_type=video
+pict_type=?
+quality=0
+coded_picture_number=0
+display_picture_number=0
+interlaced_frame=0
+repeat_pict=0
+reference=3
+stream_index=0
+size=627.000 byte
+pkt_pts=0:00:04.255462 s
+pkt_dts=0:00:04.255462 s
+pkt_duration=0:00:00.020168 s
+file_pkt_nb=305
+stream_pkt_nb=212
+pkt_flag_key=K
+[/FRAME]
+[FRAME]
+codec_type=video
+pict_type=?
+quality=0
+coded_picture_number=0
+display_picture_number=0
+interlaced_frame=0
+repeat_pict=0
+reference=3
+stream_index=0
+size=18.000 byte
+pkt_pts=0:00:04.275630 s
+pkt_dts=0:00:04.275630 s
+pkt_duration=0:00:00.020168 s
+file_pkt_nb=306
+stream_pkt_nb=213
+pkt_flag_key=K
+[/FRAME]
+[FRAME]
+codec_type=video
+pict_type=?
+quality=0
+coded_picture_number=0
+display_picture_number=0
+interlaced_frame=0
+repeat_pict=0
+reference=3
+stream_index=0
+size=3.271 Kibyte
+pkt_pts=0:00:04.295798 s
+pkt_dts=0:00:04.295798 s
+pkt_duration=0:00:00.020168 s
+file_pkt_nb=307
+stream_pkt_nb=214
+pkt_flag_key=K
+[/FRAME]
+[FRAME]
+codec_type=audio
+samples_size=4.000 Kibyte
+stream_index=1
+size=178.000 byte
+pkt_pts=0:00:04.272472 s
+pkt_dts=0:00:04.272472 s
+pkt_duration=0:00:00.000000 s
+file_pkt_nb=308
+stream_pkt_nb=94
+pkt_flag_key=K
+[/FRAME]
+[FRAME]
+codec_type=video
+pict_type=?
+quality=0
+coded_picture_number=0
+display_picture_number=0
+interlaced_frame=0
+repeat_pict=0
+reference=3
+stream_index=0
+size=1.045 Kibyte
+pkt_pts=0:00:04.315966 s
+pkt_dts=0:00:04.315966 s
+pkt_duration=0:00:00.020168 s
+file_pkt_nb=309
+stream_pkt_nb=215
+pkt_flag_key=K
+[/FRAME]
+[FRAME]
+codec_type=video
+pict_type=?
+quality=0
+coded_picture_number=0
+display_picture_number=0
+interlaced_frame=0
+repeat_pict=0
+reference=3
+stream_index=0
+size=33.000 byte
+pkt_pts=0:00:04.336134 s
+pkt_dts=0:00:04.336134 s
+pkt_duration=0:00:00.020168 s
+file_pkt_nb=310
+stream_pkt_nb=216
+pkt_flag_key=K
+[/FRAME]
+[FRAME]
+codec_type=audio
+samples_size=4.000 Kibyte
+stream_index=1
+size=151.000 byte
+pkt_pts=0:00:04.318912 s
+pkt_dts=0:00:04.318912 s
+pkt_duration=0:00:00.000000 s
+file_pkt_nb=311
+stream_pkt_nb=95
+pkt_flag_key=K
+[/FRAME]
+[FRAME]
+codec_type=video
+pict_type=?
+quality=0
+coded_picture_number=0
+display_picture_number=0
+interlaced_frame=0
+repeat_pict=0
+reference=3
+stream_index=0
+size=422.000 byte
+pkt_pts=0:00:04.356303 s
+pkt_dts=0:00:04.356303 s
+pkt_duration=0:00:00.020168 s
+file_pkt_nb=312
+stream_pkt_nb=217
+pkt_flag_key=K
+[/FRAME]
+[FRAME]
+codec_type=video
+pict_type=?
+quality=0
+coded_picture_number=0
+display_picture_number=0
+interlaced_frame=0
+repeat_pict=0
+reference=3
+stream_index=0
+size=53.000 byte
+pkt_pts=0:00:04.376471 s
+pkt_dts=0:00:04.376471 s
+pkt_duration=0:00:00.020168 s
+file_pkt_nb=313
+stream_pkt_nb=218
+pkt_flag_key=K
+[/FRAME]
+[FRAME]
+codec_type=audio
+samples_size=4.000 Kibyte
+stream_index=1
+size=163.000 byte
+pkt_pts=0:00:04.365351 s
+pkt_dts=0:00:04.365351 s
+pkt_duration=0:00:00.000000 s
+file_pkt_nb=314
+stream_pkt_nb=96
+pkt_flag_key=K
+[/FRAME]
+[FRAME]
+codec_type=video
+pict_type=?
+quality=0
+coded_picture_number=0
+display_picture_number=0
+interlaced_frame=0
+repeat_pict=0
+reference=3
+stream_index=0
+size=165.000 byte
+pkt_pts=0:00:04.396639 s
+pkt_dts=0:00:04.396639 s
+pkt_duration=0:00:00.020168 s
+file_pkt_nb=315
+stream_pkt_nb=219
+pkt_flag_key=K
+[/FRAME]
+[FRAME]
+codec_type=video
+pict_type=?
+quality=0
+coded_picture_number=0
+display_picture_number=0
+interlaced_frame=0
+repeat_pict=0
+reference=3
+stream_index=0
+size=70.000 byte
+pkt_pts=0:00:04.416807 s
+pkt_dts=0:00:04.416807 s
+pkt_duration=0:00:00.020168 s
+file_pkt_nb=316
+stream_pkt_nb=220
+pkt_flag_key=K
+[/FRAME]
+[FRAME]
+codec_type=video
+pict_type=?
+quality=0
+coded_picture_number=0
+display_picture_number=0
+interlaced_frame=0
+repeat_pict=0
+reference=3
+stream_index=0
+size=387.000 byte
+pkt_pts=0:00:04.436975 s
+pkt_dts=0:00:04.436975 s
+pkt_duration=0:00:00.020168 s
+file_pkt_nb=317
+stream_pkt_nb=221
+pkt_flag_key=K
+[/FRAME]
+[FRAME]
+codec_type=audio
+samples_size=4.000 Kibyte
+stream_index=1
+size=160.000 byte
+pkt_pts=0:00:04.411791 s
+pkt_dts=0:00:04.411791 s
+pkt_duration=0:00:00.000000 s
+file_pkt_nb=318
+stream_pkt_nb=97
+pkt_flag_key=K
+[/FRAME]
+[FRAME]
+codec_type=video
+pict_type=?
+quality=0
+coded_picture_number=0
+display_picture_number=0
+interlaced_frame=0
+repeat_pict=0
+reference=3
+stream_index=0
+size=96.000 byte
+pkt_pts=0:00:04.457143 s
+pkt_dts=0:00:04.457143 s
+pkt_duration=0:00:00.020168 s
+file_pkt_nb=319
+stream_pkt_nb=222
+pkt_flag_key=K
+[/FRAME]
+[FRAME]
+codec_type=video
+pict_type=?
+quality=0
+coded_picture_number=0
+display_picture_number=0
+interlaced_frame=0
+repeat_pict=0
+reference=3
+stream_index=0
+size=2.651 Kibyte
+pkt_pts=0:00:04.477311 s
+pkt_dts=0:00:04.477311 s
+pkt_duration=0:00:00.020168 s
+file_pkt_nb=320
+stream_pkt_nb=223
+pkt_flag_key=K
+[/FRAME]
+[FRAME]
+codec_type=audio
+samples_size=4.000 Kibyte
+stream_index=1
+size=150.000 byte
+pkt_pts=0:00:04.458231 s
+pkt_dts=0:00:04.458231 s
+pkt_duration=0:00:00.000000 s
+file_pkt_nb=321
+stream_pkt_nb=98
+pkt_flag_key=K
+[/FRAME]
+[FRAME]
+codec_type=video
+pict_type=?
+quality=0
+coded_picture_number=0
+display_picture_number=0
+interlaced_frame=0
+repeat_pict=0
+reference=3
+stream_index=0
+size=302.000 byte
+pkt_pts=0:00:04.497479 s
+pkt_dts=0:00:04.497479 s
+pkt_duration=0:00:00.020168 s
+file_pkt_nb=322
+stream_pkt_nb=224
+pkt_flag_key=K
+[/FRAME]
+[FRAME]
+codec_type=video
+pict_type=?
+quality=0
+coded_picture_number=0
+display_picture_number=0
+interlaced_frame=0
+repeat_pict=0
+reference=3
+stream_index=0
+size=267.000 byte
+pkt_pts=0:00:04.517647 s
+pkt_dts=0:00:04.517647 s
+pkt_duration=0:00:00.020168 s
+file_pkt_nb=323
+stream_pkt_nb=225
+pkt_flag_key=K
+[/FRAME]
+[FRAME]
+codec_type=audio
+samples_size=4.000 Kibyte
+stream_index=1
+size=155.000 byte
+pkt_pts=0:00:04.504671 s
+pkt_dts=0:00:04.504671 s
+pkt_duration=0:00:00.000000 s
+file_pkt_nb=324
+stream_pkt_nb=99
+pkt_flag_key=K
+[/FRAME]
+[FRAME]
+codec_type=video
+pict_type=?
+quality=0
+coded_picture_number=0
+display_picture_number=0
+interlaced_frame=0
+repeat_pict=0
+reference=3
+stream_index=0
+size=119.000 byte
+pkt_pts=0:00:04.537815 s
+pkt_dts=0:00:04.537815 s
+pkt_duration=0:00:00.020168 s
+file_pkt_nb=325
+stream_pkt_nb=226
+pkt_flag_key=K
+[/FRAME]
+[FRAME]
+codec_type=video
+pict_type=?
+quality=0
+coded_picture_number=0
+display_picture_number=0
+interlaced_frame=0
+repeat_pict=0
+reference=3
+stream_index=0
+size=797.000 byte
+pkt_pts=0:00:04.557983 s
+pkt_dts=0:00:04.557983 s
+pkt_duration=0:00:00.020168 s
+file_pkt_nb=326
+stream_pkt_nb=227
+pkt_flag_key=K
+[/FRAME]
+[FRAME]
+codec_type=audio
+samples_size=4.000 Kibyte
+stream_index=1
+size=142.000 byte
+pkt_pts=0:00:04.551111 s
+pkt_dts=0:00:04.551111 s
+pkt_duration=0:00:00.000000 s
+file_pkt_nb=327
+stream_pkt_nb=100
+pkt_flag_key=K
+[/FRAME]
+[FRAME]
+codec_type=video
+pict_type=?
+quality=0
+coded_picture_number=0
+display_picture_number=0
+interlaced_frame=0
+repeat_pict=0
+reference=3
+stream_index=0
+size=27.000 byte
+pkt_pts=0:00:04.578151 s
+pkt_dts=0:00:04.578151 s
+pkt_duration=0:00:00.020168 s
+file_pkt_nb=328
+stream_pkt_nb=228
+pkt_flag_key=K
+[/FRAME]
+[FRAME]
+codec_type=video
+pict_type=?
+quality=0
+coded_picture_number=0
+display_picture_number=0
+interlaced_frame=0
+repeat_pict=0
+reference=3
+stream_index=0
+size=693.000 byte
+pkt_pts=0:00:04.598319 s
+pkt_dts=0:00:04.598319 s
+pkt_duration=0:00:00.020168 s
+file_pkt_nb=329
+stream_pkt_nb=229
+pkt_flag_key=K
+[/FRAME]
+[FRAME]
+codec_type=video
+pict_type=?
+quality=0
+coded_picture_number=0
+display_picture_number=0
+interlaced_frame=0
+repeat_pict=0
+reference=3
+stream_index=0
+size=20.000 byte
+pkt_pts=0:00:04.618487 s
+pkt_dts=0:00:04.618487 s
+pkt_duration=0:00:00.020168 s
+file_pkt_nb=330
+stream_pkt_nb=230
+pkt_flag_key=K
+[/FRAME]
+[FRAME]
+codec_type=audio
+samples_size=4.000 Kibyte
+stream_index=1
+size=158.000 byte
+pkt_pts=0:00:04.597551 s
+pkt_dts=0:00:04.597551 s
+pkt_duration=0:00:00.000000 s
+file_pkt_nb=331
+stream_pkt_nb=101
+pkt_flag_key=K
+[/FRAME]
+[FRAME]
+codec_type=video
+pict_type=?
+quality=0
+coded_picture_number=0
+display_picture_number=0
+interlaced_frame=0
+repeat_pict=0
+reference=3
+stream_index=0
+size=243.000 byte
+pkt_pts=0:00:04.638655 s
+pkt_dts=0:00:04.638655 s
+pkt_duration=0:00:00.020168 s
+file_pkt_nb=332
+stream_pkt_nb=231
+pkt_flag_key=K
+[/FRAME]
+[FRAME]
+codec_type=video
+pict_type=?
+quality=0
+coded_picture_number=0
+display_picture_number=0
+interlaced_frame=0
+repeat_pict=0
+reference=3
+stream_index=0
+size=71.000 byte
+pkt_pts=0:00:04.658824 s
+pkt_dts=0:00:04.658824 s
+pkt_duration=0:00:00.020168 s
+file_pkt_nb=333
+stream_pkt_nb=232
+pkt_flag_key=K
+[/FRAME]
+[FRAME]
+codec_type=audio
+samples_size=4.000 Kibyte
+stream_index=1
+size=154.000 byte
+pkt_pts=0:00:04.643991 s
+pkt_dts=0:00:04.643991 s
+pkt_duration=0:00:00.000000 s
+file_pkt_nb=334
+stream_pkt_nb=102
+pkt_flag_key=K
+[/FRAME]
+[FRAME]
+codec_type=video
+pict_type=?
+quality=0
+coded_picture_number=0
+display_picture_number=0
+interlaced_frame=0
+repeat_pict=0
+reference=3
+stream_index=0
+size=4.573 Kibyte
+pkt_pts=0:00:04.678992 s
+pkt_dts=0:00:04.678992 s
+pkt_duration=0:00:00.020168 s
+file_pkt_nb=335
+stream_pkt_nb=233
+pkt_flag_key=K
+[/FRAME]
+[FRAME]
+codec_type=audio
+samples_size=4.000 Kibyte
+stream_index=1
+size=151.000 byte
+pkt_pts=0:00:04.690431 s
+pkt_dts=0:00:04.690431 s
+pkt_duration=0:00:00.000000 s
+file_pkt_nb=336
+stream_pkt_nb=103
+pkt_flag_key=K
+[/FRAME]
+[FRAME]
+codec_type=audio
+samples_size=4.000 Kibyte
+stream_index=1
+size=164.000 byte
+pkt_pts=0:00:04.736871 s
+pkt_dts=0:00:04.736871 s
+pkt_duration=0:00:00.000000 s
+file_pkt_nb=337
+stream_pkt_nb=104
+pkt_flag_key=K
+[/FRAME]
+[FRAME]
+codec_type=audio
+samples_size=4.000 Kibyte
+stream_index=1
+size=164.000 byte
+pkt_pts=0:00:04.783311 s
+pkt_dts=0:00:04.783311 s
+pkt_duration=0:00:00.000000 s
+file_pkt_nb=338
+stream_pkt_nb=105
+pkt_flag_key=K
+[/FRAME]
+[FRAME]
+codec_type=audio
+samples_size=4.000 Kibyte
+stream_index=1
+size=161.000 byte
+pkt_pts=0:00:04.829751 s
+pkt_dts=0:00:04.829751 s
+pkt_duration=0:00:00.000000 s
+file_pkt_nb=339
+stream_pkt_nb=106
+pkt_flag_key=K
+[/FRAME]
+[FRAME]
+codec_type=audio
+samples_size=4.000 Kibyte
+stream_index=1
+size=166.000 byte
+pkt_pts=0:00:04.876190 s
+pkt_dts=0:00:04.876190 s
+pkt_duration=0:00:00.000000 s
+file_pkt_nb=340
+stream_pkt_nb=107
+pkt_flag_key=K
+[/FRAME]
+[FRAME]
+codec_type=audio
+samples_size=4.000 Kibyte
+stream_index=1
+size=172.000 byte
+pkt_pts=0:00:04.922630 s
+pkt_dts=0:00:04.922630 s
+pkt_duration=0:00:00.000000 s
+file_pkt_nb=341
+stream_pkt_nb=108
+pkt_flag_key=K
+[/FRAME]
+[FRAME]
+codec_type=audio
+samples_size=4.000 Kibyte
+stream_index=1
+size=159.000 byte
+pkt_pts=0:00:04.969070 s
+pkt_dts=0:00:04.969070 s
+pkt_duration=0:00:00.000000 s
+file_pkt_nb=342
+stream_pkt_nb=109
+pkt_flag_key=K
+[/FRAME]
+[FRAME]
+codec_type=audio
+samples_size=4.000 Kibyte
+stream_index=1
+size=159.000 byte
+pkt_pts=0:00:05.015510 s
+pkt_dts=0:00:05.015510 s
+pkt_duration=0:00:00.000000 s
+file_pkt_nb=343
+stream_pkt_nb=110
+pkt_flag_key=K
+[/FRAME]
+[FRAME]
+codec_type=audio
+samples_size=4.000 Kibyte
+stream_index=1
+size=163.000 byte
+pkt_pts=0:00:05.061950 s
+pkt_dts=0:00:05.061950 s
+pkt_duration=0:00:00.000000 s
+file_pkt_nb=344
+stream_pkt_nb=111
+pkt_flag_key=K
+[/FRAME]
+[FRAME]
+codec_type=audio
+samples_size=4.000 Kibyte
+stream_index=1
+size=155.000 byte
+pkt_pts=0:00:05.108390 s
+pkt_dts=0:00:05.108390 s
+pkt_duration=0:00:00.000000 s
+file_pkt_nb=345
+stream_pkt_nb=112
+pkt_flag_key=K
+[/FRAME]
+[FRAME]
+codec_type=audio
+samples_size=4.000 Kibyte
+stream_index=1
+size=146.000 byte
+pkt_pts=0:00:05.154830 s
+pkt_dts=0:00:05.154830 s
+pkt_duration=0:00:00.000000 s
+file_pkt_nb=346
+stream_pkt_nb=113
+pkt_flag_key=K
+[/FRAME]
+[FRAME]
+codec_type=audio
+samples_size=4.000 Kibyte
+stream_index=1
+size=132.000 byte
+pkt_pts=0:00:05.201270 s
+pkt_dts=0:00:05.201270 s
+pkt_duration=0:00:00.000000 s
+file_pkt_nb=347
+stream_pkt_nb=114
+pkt_flag_key=K
+[/FRAME]
+[FRAME]
+codec_type=audio
+samples_size=4.000 Kibyte
+stream_index=1
+size=128.000 byte
+pkt_pts=0:00:05.247710 s
+pkt_dts=0:00:05.247710 s
+pkt_duration=0:00:00.000000 s
+file_pkt_nb=348
+stream_pkt_nb=115
+pkt_flag_key=K
+[/FRAME]
+[FRAME]
+codec_type=audio
+samples_size=4.000 Kibyte
+stream_index=1
+size=124.000 byte
+pkt_pts=0:00:05.294150 s
+pkt_dts=0:00:05.294150 s
+pkt_duration=0:00:00.000000 s
+file_pkt_nb=349
+stream_pkt_nb=116
+pkt_flag_key=K
+[/FRAME]
+[FRAME]
+codec_type=audio
+samples_size=4.000 Kibyte
+stream_index=1
+size=107.000 byte
+pkt_pts=0:00:05.340590 s
+pkt_dts=0:00:05.340590 s
+pkt_duration=0:00:00.000000 s
+file_pkt_nb=350
+stream_pkt_nb=117
+pkt_flag_key=K
+[/FRAME]
+[FRAME]
+codec_type=audio
+samples_size=4.000 Kibyte
+stream_index=1
+size=61.000 byte
+pkt_pts=0:00:05.387029 s
+pkt_dts=0:00:05.387029 s
+pkt_duration=0:00:00.000000 s
+file_pkt_nb=351
+stream_pkt_nb=118
+pkt_flag_key=K
+[/FRAME]
+[FRAME]
+codec_type=audio
+samples_size=4.000 Kibyte
+stream_index=1
+size=30.000 byte
+pkt_pts=0:00:05.433469 s
+pkt_dts=0:00:05.433469 s
+pkt_duration=0:00:00.000000 s
+file_pkt_nb=352
+stream_pkt_nb=119
+pkt_flag_key=K
+[/FRAME]
+[FRAME]
+codec_type=audio
+samples_size=4.000 Kibyte
+stream_index=1
+size=30.000 byte
+pkt_pts=0:00:05.479909 s
+pkt_dts=0:00:05.479909 s
+pkt_duration=0:00:00.000000 s
+file_pkt_nb=353
+stream_pkt_nb=120
+pkt_flag_key=K
+[/FRAME]
+[FRAME]
+codec_type=audio
+samples_size=4.000 Kibyte
+stream_index=1
+size=30.000 byte
+pkt_pts=0:00:05.526349 s
+pkt_dts=0:00:05.526349 s
+pkt_duration=0:00:00.000000 s
+file_pkt_nb=354
+stream_pkt_nb=121
+pkt_flag_key=K
+[/FRAME]
+[FRAME]
+codec_type=audio
+samples_size=4.000 Kibyte
+stream_index=1
+size=30.000 byte
+pkt_pts=0:00:05.572789 s
+pkt_dts=0:00:05.572789 s
+pkt_duration=0:00:00.000000 s
+file_pkt_nb=355
+stream_pkt_nb=122
+pkt_flag_key=K
+[/FRAME]
+[FRAME]
+codec_type=audio
+samples_size=4.000 Kibyte
+stream_index=1
+size=30.000 byte
+pkt_pts=0:00:05.619229 s
+pkt_dts=0:00:05.619229 s
+pkt_duration=0:00:00.000000 s
+file_pkt_nb=356
+stream_pkt_nb=123
+pkt_flag_key=K
+[/FRAME]

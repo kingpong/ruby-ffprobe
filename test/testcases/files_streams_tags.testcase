@@ -1,0 +1,62 @@
+FFprobe version SVN-rUNKNOWN, Copyright (c) 2007-2008 Stefano Sabatini
+  libavutil version: 49.15.0
+  libavcodec version: 52.20.1
+  libavformat version: 52.31.0
+  built on May 22 2010 15:12:14, gcc: 4.2.1 (Apple Inc. build 5646) (dot 1)
+Input #0, ogg, from '/Users/philip/Projects/ffprobe/test/testcases/source.ogv':
+  Duration: 00:00:05.66, start: 0.000000, bitrate: 241 kb/s
+    Stream #0.0: Video: theora, yuv420p, 320x240, PAR 1:1 DAR 4:3, 49.58 tbr, 49.58 tbn, 49.58 tbc
+    Stream #0.1: Audio: vorbis, 22050 Hz, stereo, s16
+[TAGS]
+track=0
+title=
+author=
+copyright=
+comment=
+album=
+year=0
+genre=
+[/TAGS]
+[STREAM]
+codec_name=theora
+decoder_time_base=12/595
+codec_type=video
+r_frame_rate=49.583333
+r_frame_rate_num=595
+r_frame_rate_den=12
+width=320
+height=240
+gop_size=12
+has_b_frames=0
+sample_aspect_ratio=0/1
+display_aspect_ratio=0/1
+pix_fmt=yuv420p
+index=0
+time_base=12/595
+start_time=0.000000 
+duration=N/A
+nb_frames=0
+[/STREAM]
+[STREAM]
+codec_name=vorbis
+decoder_time_base=0/1
+codec_type=audio
+sample_rate=22050.000000 
+channels=2
+bits_per_sample=0
+index=1
+time_base=1/22050
+start_time=0.000000 
+duration=5.665669 
+nb_frames=0
+[/STREAM]
+[FILE]
+filename=/Users/philip/Projects/ffprobe/test/testcases/source.ogv
+nb_streams=2
+demuxer_name=ogg
+demuxer_long_name=Ogg
+start_time=0.000000 
+duration=5.665669 
+size=171231.000000 
+bit_rate=241780.000000 
+[/FILE]
