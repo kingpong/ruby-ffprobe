@@ -12,9 +12,8 @@ class IO
     want_stderr = opts[:stderr]
     
     reader, writer = IO.pipe
-    pid = fork
     retval = nil
-    if pid 
+    if pid = fork
       writer.close
       if block_given?
         retval = yield(reader)
