@@ -31,6 +31,13 @@ namespace "ffprobe" do
   end
 end
 
+task "set_testopts_verbose" do
+  ENV["TESTOPTS"] = '-v'
+end
+
+desc "Run tests with verbosity enabled"
+task "vtest" => [:set_testopts_verbose, :default]
+
 namespace "test" do
   desc "Generate ffprobe output test cases"
   task "cases" => ["ffprobe:exec","test/testcases/source.ogv"] do |t|

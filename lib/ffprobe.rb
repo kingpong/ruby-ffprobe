@@ -23,5 +23,12 @@
 # SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 #
 
+require 'ffprobe/info'
+require 'ffprobe/file_info'
+require 'ffprobe/frame_info'
+require 'ffprobe/packet_info'
+require 'ffprobe/stream_info'
+require 'ffprobe/tags_info'
+
 class FFProbe
 end

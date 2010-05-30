@@ -1,6 +1,8 @@
 
 $VERBOSE = false
 require 'test/unit'
+require 'rubygems'
+require 'shoulda'
 
 begin
   here = File.dirname(__FILE__)
@@ -11,3 +13,8 @@ begin
 end
 
 require 'ffprobe'
+
+def open_testcase(name)
+  here = File.dirname(__FILE__)
+  File.open("#{here}/testcases/#{name}.testcase")
+end
