@@ -2,6 +2,7 @@ require 'rubygems'
 require 'rake'
 require 'echoe'
 require 'test/capture'
+require 'rcov/rcovtask'
 
 project = "ffprobe"
 version = "0.0.1"
@@ -66,13 +67,9 @@ namespace "test" do
 end
 
 
-
-
-
-
-
-
-
-
+task :setup_rcov_opts do
+  ENV["RCOVOPTS"] = '--exclude /gems/'
+end
+task :coverage => :setup_rcov_opts
 
 
