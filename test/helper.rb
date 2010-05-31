@@ -19,10 +19,18 @@ def open_testcase(name)
   File.open("#{here}/testcases/#{name}.testcase")
 end
 
-def should_respond_to(*methods)
+def should_respond_to(instance_var, *methods)
   methods.each do |method|
     should "respond to ##{method}" do
-      assert_respond_to @instance, method.to_sym
+      assert_respond_to instance_variable_get(instance_var), method.to_sym
+    end
+  end
+end
+
+def should_have_numeric_value(instance_var, *keys)
+  keys.flatten.each do |key|
+    should "have a numeric #{key} in #{instance_var}" do
+      assert_match /\d/, instance_variable_get(instance_var)[key.to_sym]
     end
   end
 end

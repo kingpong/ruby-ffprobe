@@ -12,7 +12,8 @@ class TestFfprobe
           @instance = FFProbe::FileInfo.new
         end
         
-        should_respond_to :filename, :nb_streams, :demuxer_name, :demuxer_long_name,
+        should_respond_to :@instance, 
+                          :filename, :nb_streams, :demuxer_name, :demuxer_long_name,
                           :start_time, :duration, :size, :bit_rate        
       end
       

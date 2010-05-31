@@ -82,10 +82,32 @@ class TestFfprobe
             assert_match /\d/, @file[:bit_rate]
           end
         end
-                
-        should "have two STREAM stanzas" do
-          assert_equal 2, @parsed[:STREAM].length
+        
+        context "in STREAM stanzas" do
+          setup do
+            @streams = @parsed[:STREAM]
+            @video_stream = @streams.first if @streams
+            @audio_stream = @streams.last if @streams
+          end
+
+          should "have a video stream and an audio stream" do
+            assert_equal 2, @streams.length
+            assert_equal "video", @video_stream[:codec_type]
+            assert_equal "audio", @audio_stream[:codec_type]
+          end
+          
+          should_have_numeric_value :@video_stream, %w(
+            decoder_time_base r_frame_rate r_frame_rate_num r_frame_rate_den
+            width height gop_size has_b_frames sample_aspect_ratio display_aspect_ratio
+            index time_base start_time nb_frames
+          )
+          
+          should_have_numeric_value :@audio_stream, %w(
+            decoder_time_base sample_rate channels bits_per_sample index
+            time_base start_time duration nb_frames
+          )
         end
+                
         
         should "have one TAGS stanza" do
           assert_equal 1, @parsed[:TAGS].length

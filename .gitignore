@@ -4,3 +4,4 @@ InstalledFiles
 doc
 *.swp
 test/testcases/source.ogv
+coverage
