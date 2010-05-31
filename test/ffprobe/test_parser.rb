@@ -96,22 +96,42 @@ class TestFfprobe
             assert_equal "audio", @audio_stream[:codec_type]
           end
           
+          should_have_string_value :@video_stream, %w(
+            codec_name codec_type pix_fmt
+          )
           should_have_numeric_value :@video_stream, %w(
             decoder_time_base r_frame_rate r_frame_rate_num r_frame_rate_den
             width height gop_size has_b_frames sample_aspect_ratio display_aspect_ratio
             index time_base start_time nb_frames
           )
           
+          should_have_string_value :@audio_stream, %w(
+            codec_name codec_type
+          )
           should_have_numeric_value :@audio_stream, %w(
             decoder_time_base sample_rate channels bits_per_sample index
             time_base start_time duration nb_frames
           )
         end
                 
-        
-        should "have one TAGS stanza" do
-          assert_equal 1, @parsed[:TAGS].length
+        context "in TAGS stanza" do
+          setup do
+            @tags_stanzas = @parsed[:TAGS]
+            @tags = @tags_stanzas.first if @tags_stanzas
+          end
+
+          should "have one" do
+            assert_equal 1, @tags_stanzas.length
+          end
+          
+          should "have keys from id3v1" do
+            assert_equal %w(track title author copyright comment album year genre).sort,
+                         @tags.keys.map(&:to_s).sort
+          end
+
         end
+
+   
       end
       
     end

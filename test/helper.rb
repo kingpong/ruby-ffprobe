@@ -34,3 +34,11 @@ def should_have_numeric_value(instance_var, *keys)
     end
   end
 end
+
+def should_have_string_value(instance_var, *keys)
+  keys.flatten.each do |key|
+    should "have a string #{key} in #{instance_var}" do
+      assert_kind_of String, instance_variable_get(instance_var)[key.to_sym]
+    end
+  end
+end
