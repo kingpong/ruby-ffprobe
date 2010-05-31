@@ -18,3 +18,11 @@ def open_testcase(name)
   here = File.dirname(__FILE__)
   File.open("#{here}/testcases/#{name}.testcase")
 end
+
+def should_respond_to(*methods)
+  methods.each do |method|
+    should "respond to ##{method}" do
+      assert_respond_to @instance, method.to_sym
+    end
+  end
+end
