@@ -3,17 +3,17 @@ FFprobe version SVN-rUNKNOWN, Copyright (c) 2007-2008 Stefano Sabatini
   libavcodec version: 52.20.1
   libavformat version: 52.31.0
   built on May 22 2010 15:12:14, gcc: 4.2.1 (Apple Inc. build 5646) (dot 1)
-Input #0, ogg, from '/Users/philip/Projects/ffprobe/test/testcases/source.ogv':
-  Duration: 00:00:05.66, start: 0.000000, bitrate: 241 kb/s
-    Stream #0.0: Video: theora, yuv420p, 320x240, PAR 1:1 DAR 4:3, 49.58 tbr, 49.58 tbn, 49.58 tbc
-    Stream #0.1: Audio: vorbis, 22050 Hz, stereo, s16
+[mp3 @ 0x10180aa00]mdb:16, lastbuf:0 skipping granule 0
+Input #0, mp3, from '/some_file.mp3':
+  Duration: 00:02:21.88, start: 0.000000, bitrate: 256 kb/s
+    Stream #0.0: Audio: mp3, 44100 Hz, stereo, s16, 256 kb/s
 [TAGS]
-track=0
-title=
-author=
-copyright=
-comment=
-album=
+track=1
+title=title_placeholder
+author=author_placeholder
+copyright=copyright_placeholder
+comment=comment_placeholder
+album=album_placeholder
 year=0
-genre=
+genre=genre_placeholder
 [/TAGS]
