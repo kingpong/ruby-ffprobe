@@ -1,4 +1,4 @@
 class FFProbe
-  class PacketInfo
+  class PacketInfo < Entity
   end
 end

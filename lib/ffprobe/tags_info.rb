@@ -1,5 +1,5 @@
 class FFProbe
-  class TagsInfo
+  class TagsInfo < Entity
     
   end
 end

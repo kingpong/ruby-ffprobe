@@ -1,4 +1,4 @@
 class FFProbe
-  class FrameInfo
+  class FrameInfo < Entity
   end
 end

@@ -13,8 +13,10 @@ class FFProbe
           # ignored, stanzas can't nest.
         when /\A(\w+)=(.*)/
           if dest
-            dest[$1.to_sym] = $2
+            dest[$1.to_sym] = $2 == "N/A" ? nil : $2.strip
           end
+        else
+          (result[:EXTRA] ||= []).push(line)
         end
       end
       result

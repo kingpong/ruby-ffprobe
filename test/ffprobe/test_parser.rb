@@ -18,8 +18,9 @@ class TestFfprobe
           @parsed = @parser.parse_stream(open_testcase("no_args"))
         end
         
-        should "return an empty hash" do
-          assert_equal @parsed, {}
+        should "return a hash with only EXTRA (or nothing)" do
+          assert @parsed.length <= 1
+          assert [nil,:EXTRA].include?(@parsed.keys[0])
         end
       end
       
@@ -29,7 +30,7 @@ class TestFfprobe
         end
         
         should "return a non-empty result" do
-          assert_not_equal 0, @parsed.length
+          assert @parsed.length > 1
         end
         
         should "have only Symbol keys" do
