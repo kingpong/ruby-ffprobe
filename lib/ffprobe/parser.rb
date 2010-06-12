@@ -5,6 +5,7 @@ class FFProbe
       result = {}
       dest = nil
       io.each_line do |line|
+        # $stderr.puts line
         line.chomp!
         case line
         when /\A\[(\w+)\]\Z/
