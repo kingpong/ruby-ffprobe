@@ -48,16 +48,23 @@ class FFProbe
   DEFAULT_FEATURES = [:show_streams, :show_tags]
   
   attr_accessor :features
-  
   def features=(desired_features)
     @features = desired_features.each {|feature|
       raise(InvalidArgument, "Unrecognized feature #{feature}") unless FEATURES.include?(feature)
     }
   end
+
+  attr_accessor :units
+  alias :units? :units
+  def units=(bool)
+    require 'ffprobe/unit' if bool
+    @units = bool
+  end
   
   def initialize(*desired_features)
     desired_features = DEFAULT_FEATURES if desired_features.empty?
-    self.features = desired_features
+    self.features = desired_features.reject {|f| f == :units }
+    self.units = desired_features.include?(:units)
   end
   
   def probe(filename)
@@ -66,7 +73,7 @@ class FFProbe
     result = nil
     pipe = SafePipe.new(executable,*params)
     pipe.run do |stream|
-      result = Result.from_stream(stream)
+      result = Result.from_stream(stream, self.units?)
     end
     result.success = pipe.success?
     result.pretty = self.pretty? if result
