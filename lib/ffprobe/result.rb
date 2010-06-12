@@ -53,5 +53,55 @@ class FFProbe
       @extra = []
     end
     
+    def has_video?
+      @streams.first {|s| s.codec_type == "video" }
+    end
+    
+    def video?
+      @streams.length == 1 && has_video?
+    end
+    
+    def has_audio?
+      @streams.first {|s| s.codec_type == "audio" }
+    end
+    
+    def audio?
+      @streams.length == 1 && has_audio?
+    end
+    
   end
 end
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#
