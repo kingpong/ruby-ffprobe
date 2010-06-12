@@ -29,6 +29,7 @@ require 'ffprobe/frame_info'
 require 'ffprobe/packet_info'
 require 'ffprobe/parser'
 require 'ffprobe/result'
+require 'ffprobe/safe_pipe'
 require 'ffprobe/stream_info'
 require 'ffprobe/tags_info'
 
@@ -44,11 +45,9 @@ class FFProbe
   FEATURES = [ :read_packets, :read_frames, :show_files, :show_frames, :show_packets, :show_streams, :show_tags, :pretty ]
   FEATURES.each {|feature| attr_accessor(feature) }
   
-  DEFAULT_FEATURES = [:show_streams,:show_tags]
+  DEFAULT_FEATURES = [:show_streams, :show_tags]
   
   attr_accessor :features
-  attr_accessor :success
-  alias :success? :success
   
   def features=(desired_features)
     @features = desired_features.each {|feature|
@@ -65,9 +64,11 @@ class FFProbe
     params = features.map {|f| "-#{f.to_s}" }
     params << filename
     result = nil
-    pipe_command(executable, *params) do |stream|
+    pipe = SafePipe.new(executable,*params)
+    pipe.run do |stream|
       result = Result.from_stream(stream)
     end
+    result.success = pipe.success?
     result.pretty = self.pretty? if result
     result
   end
@@ -81,39 +82,6 @@ class FFProbe
   def executable
     self.class.executable
   end
-  
-  # Runs a command and yields an IO object opened for reading from the command.
-  # Does *NOT* do any shell expansion (that's the point).
-  # +args+ should be [program,arg1,...]
-  def pipe_command(*args)
-    #$stderr.puts args.map {|a| a =~ /\s/ ? "'#{a}'" : a }.join(" ")
-    reader, writer = IO.pipe
-    if pid = fork
-      begin
-        writer.close
-        yield(reader)
-        Process.waitpid
-        self.success = $?.success?
-      rescue => e
-        Process.waitpid(pid,Process::WNOHANG) rescue nil
-        self.success = false
-        raise(e)
-      end
-    else
-      begin
-        reader.close
-        $stdin.reopen("/dev/null")
-        $stdout.reopen(writer)
-        $stderr.reopen(writer)
-        exec(*args)
-      rescue => e
-        # prevent child from jumping out of this scope and continuing main program
-        $stderr.puts(e.to_s)
-      end 
-      exit! # will only reach here if exec() failed
-    end 
-  end 
-  
   
 end
 

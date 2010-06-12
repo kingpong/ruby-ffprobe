@@ -15,8 +15,11 @@ end
 require 'ffprobe'
 
 def open_testcase(name)
-  here = File.dirname(__FILE__)
-  File.open("#{here}/testcases/#{name}.testcase")
+  File.open(testcase_path("#{name}.testcase"))
+end
+
+def testcase_path(name)
+  File.join(File.dirname(__FILE__), 'testcases', name)
 end
 
 def should_respond_to(instance_var, *methods)

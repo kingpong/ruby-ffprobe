@@ -22,8 +22,6 @@ class FFProbe
           target.tags = TagsInfo.from_hash(value[0])
         when :EXTRA
           target.extra = Array.new(value)
-        else
-          warn "encountered unexpected hash key #{key}"
         end
       end
       target
@@ -38,6 +36,9 @@ class FFProbe
 
     attr_accessor :pretty
     alias :pretty? :pretty
+    
+    attr_accessor :success
+    alias :success? :success
     
     def initialize
       @file = FileInfo.new

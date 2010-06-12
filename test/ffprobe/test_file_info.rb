@@ -14,7 +14,7 @@ class TestFfprobe
         
         should_respond_to :@instance, 
                           :filename, :nb_streams, :demuxer_name, :demuxer_long_name,
-                          :start_time, :duration, :size, :bit_rate        
+                          :start_time, :duration, :size, :bit_rate
       end
       
     end
