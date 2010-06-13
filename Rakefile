@@ -1,20 +1,20 @@
 require 'rubygems'
 require 'rake'
-require 'echoe'
-require 'test/capture'
 require 'rcov/rcovtask'
 
-project = "ffprobe"
-version = "0.0.1"
-
-Echoe.new(project, version) do |p|
-  p.description = "Ruby wrapper for ffprobe"
-  p.summary = "#{project} #{version}"
-  p.url = "http://github.com/kingpong/ffprobe"
-  p.author = "Philip Garrett"
-  p.email = "philip@pastemagazine.com"
-  p.ignore_pattern = ["tmp/*", "script/*", "InstalledFiles"]
-  p.development_dependencies = []
+begin
+  require 'jeweler'
+  Jeweler::Tasks.new do |gemspec|
+    gemspec.name = "ruby-ffprobe"
+    gemspec.summary = "Ruby wrapper for FFprobe multimedia analyzer"
+    gemspec.description = "Ruby wrapper for FFprobe multimedia analyzer"
+    gemspec.email = "philgarr@gmail.com"
+    gemspec.homepage = "http://github.com/kingpong/ruby-ffprobe"
+    gemspec.authors = ["Philip Garrett"]
+  end
+  Jeweler::GemcutterTasks.new
+rescue LoadError
+  puts "Jeweler not available. Install it with: gem install jeweler"
 end
 
 namespace "ffprobe" do
@@ -42,6 +42,7 @@ task "vtest" => [:set_testopts_verbose, :default]
 namespace "test" do
   desc "Generate ffprobe output test cases"
   task "cases" => ["ffprobe:exec","test/testcases/source.ogv"] do |t|
+    require "lib/ffprobe/safe_pipe"
     dest_dir = File.expand_path("test/testcases")
     source = File.expand_path(t.prerequisites.last)
     variations = { "no_args" => [] }
@@ -52,7 +53,7 @@ namespace "test" do
     variations["files_streams_tags"] = ["-show_files", "-show_streams", "-show_tags"]
     variations["pretty_files_streams_tags"] = ["-show_files", "-show_streams", "-show_tags", "-pretty"]
     variations.each_pair do |name,args|
-      IO.capture(ENV["FFPROBE"], args, source, :stderr => true) do |pipe|
+      FFProbe::SafePipe.new(ENV["FFPROBE"], *(args + [source])).run do |pipe|
         File.open(File.join(dest_dir,"#{name}.testcase"),"w") do |output|
           output.write pipe.read
         end
@@ -66,10 +67,14 @@ namespace "test" do
   end
 end
 
-
-task :setup_rcov_opts do
-  ENV["RCOVOPTS"] = '--exclude /gems/'
+Rcov::RcovTask.new("coverage") do |t|
+  t.libs << "test"
+  t.test_files = FileList["test/**/test_*.rb"]
+  t.output_dir = "coverage"
+  t.verbose = true
+  t.rcov_opts << '--exclude /gems/'
 end
-task :coverage => :setup_rcov_opts
+
+task "rcov" => "coverage"
 
 
