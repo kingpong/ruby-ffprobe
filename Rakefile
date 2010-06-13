@@ -8,7 +8,7 @@ begin
   Jeweler::Tasks.new do |gemspec|
     gemspec.name = "ruby-ffprobe"
     gemspec.summary = "Ruby wrapper for FFprobe multimedia analyzer"
-    gemspec.description = "Ruby wrapper for FFprobe multimedia analyzer"
+    gemspec.description = File.read(File.join(File.dirname(__FILE__),"README.rdoc"))
     gemspec.email = "philgarr@gmail.com"
     gemspec.homepage = "http://github.com/kingpong/ruby-ffprobe"
     gemspec.authors = ["Philip Garrett"]
