@@ -61,10 +61,8 @@ class FFProbe
     
     def wait_for_exec
       exec_result = @rexec.read
-      if exec_result.length != 0
-        # exec failed, this is a marshalled exception
-        raise Marshal.load(exec_result)
-      end
+      # if exec failed, this will be a marshalled exception
+      raise Marshal.load(exec_result) unless exec_result.empty?
     end
     
     def set_close_on_exec(io)
