@@ -12,7 +12,7 @@ interface to that command-line program.
 
 == Author
 
-* Philip Garrett <philip at pastemagazine.com>
+* Philip Garrett <philgarr at gmail.com>
 
 == Copyright and License
 
