@@ -1,5 +1,6 @@
 require 'rubygems'
 require 'rake'
+require 'rake/testtask'
 require 'rcov/rcovtask'
 
 begin
@@ -36,8 +37,14 @@ task "set_testopts_verbose" do
   ENV["TESTOPTS"] = '-v'
 end
 
+Rake::TestTask.new do |t|
+   t.libs << "test"
+   t.test_files = FileList['test/**/test*.rb']
+   t.verbose = true
+ end
+
 desc "Run tests with verbosity enabled"
-task "vtest" => [:set_testopts_verbose, :default]
+task "vtest" => [:set_testopts_verbose, :test]
 
 namespace "test" do
   desc "Generate ffprobe output test cases"
