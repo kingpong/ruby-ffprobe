@@ -4,6 +4,13 @@ require File.join(File.dirname(__FILE__),"..","helper.rb")
 
 class TestFfprobe
   class TestFfprobe < Test::Unit::TestCase
+    
+    context "00 An unconfigured FFProbe class" do
+      should "auto-configure its ffprobe features" do
+        assert_nothing_raised { @ffprobe = FFProbe.new(:show_streams) }
+        assert_equal [:show_streams], @ffprobe.features
+      end
+    end
 
     context "A default FFProbe instance" do
     
