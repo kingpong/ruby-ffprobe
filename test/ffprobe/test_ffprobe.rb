@@ -11,10 +11,8 @@ class TestFfprobe
         @ffprobe = FFProbe.new
       end
       
-      should "show streams and tags" do
-        assert @ffprobe.features.length == 2
-        assert @ffprobe.features.include?(:show_streams)
-        assert @ffprobe.features.include?(:show_tags)
+      should "not have any features enabled" do
+        assert @ffprobe.features.length == 0
       end
       
       should "not be :pretty?" do
@@ -47,7 +45,8 @@ class TestFfprobe
     
     context "A configured FFProbe instance" do
       setup do
-        @features = [:read_packets, :read_frames, :show_files, :show_frames, :show_packets, :show_streams, :show_tags, :pretty]
+        # make sure features are loaded
+        @features = FFProbe.implemented_features.dup
         @ffprobe = FFProbe.new(*@features)
       end
       should "retain its configuration" do
