@@ -79,16 +79,12 @@ class FFProbe
     end
   end
   
-  def implemented_features
-    self.class.implemented_features
-  end
-  
   # handle features based on whether the ffprobe executable recognizes them
   def method_missing(sym,*args)
-    if implemented_features.include?(sym)
+    if @@implemented_features.include?(sym)
       return instance_variable_get("@#{sym}")
     elsif (str = sym.to_s)[-1] == ?=
-      if implemented_features.include?((feat = str[0,str.length-1]).to_sym)
+      if @@implemented_features.include?((feat = str[0,str.length-1]).to_sym)
         return instance_variable_set("@#{feat}", args.first)
       end
     end
@@ -98,7 +94,7 @@ class FFProbe
   attr_accessor :features
   def features=(desired_features)
     @features = desired_features.each {|feature|
-      raise(InvalidArgument, "Unrecognized feature #{feature}") unless implemented_features.include?(feature)
+      raise(InvalidArgument, "Unrecognized feature #{feature}") unless @@implemented_features.include?(feature)
     }
   end
 
