@@ -26,7 +26,7 @@ class TestFfprobe
       
       context "given movie ffprobe results" do
         setup do
-          @parsed = @parser.parse_stream(open_testcase("files_streams_tags"))
+          @parsed = @parser.parse_stream(open_testcase("format_streams"))
         end
         
         should "return a non-empty result" do
@@ -64,6 +64,7 @@ class TestFfprobe
           end
           
           should "have a demuxer long name" do
+            puts @file.to_yaml
             assert_match /./, @file[:demuxer_long_name]
           end
           

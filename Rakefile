@@ -53,12 +53,12 @@ namespace "test" do
     dest_dir = File.expand_path("test/testcases")
     source = File.expand_path(t.prerequisites.last)
     variations = { "no_args" => [] }
-    %w{files frames packets streams tags}.each do |opt|
+    %w{format streams}.each do |opt|
       variations[opt]             = ["-show_#{opt}"]
       variations["pretty_#{opt}"] = ["-show_#{opt}", "-pretty"]
     end
-    variations["files_streams_tags"] = ["-show_files", "-show_streams", "-show_tags"]
-    variations["pretty_files_streams_tags"] = ["-show_files", "-show_streams", "-show_tags", "-pretty"]
+    variations["format_streams"] = ["-show_format", "-show_streams"]
+    variations["pretty_format_streams"] = ["-show_format", "-show_streams", "-pretty"]
     variations.each_pair do |name,args|
       FFProbe::SafePipe.new(ENV["FFPROBE"], *(args + [source])).run do |pipe|
         File.open(File.join(dest_dir,"#{name}.testcase"),"w") do |output|

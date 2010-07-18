@@ -48,3 +48,13 @@ time_base=1/22050
 start_time=0:00:00.000000
 duration=0:00:05.665669
 [/STREAM]
+[FORMAT]
+filename=/Users/philip/Projects/ffprobe/test/testcases/source.ogv
+nb_streams=2
+format_name=ogg
+format_long_name=Ogg
+start_time=0:00:00.000000
+duration=0:00:05.665669
+size=167.218 Kibyte
+bit_rate=241.780 Kbit/s
+[/FORMAT]

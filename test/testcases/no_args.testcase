@@ -1,9 +1,13 @@
-FFprobe version SVN-rUNKNOWN, Copyright (c) 2007-2008 Stefano Sabatini
-  libavutil version: 49.15.0
-  libavcodec version: 52.20.1
-  libavformat version: 52.31.0
-  built on May 22 2010 15:12:14, gcc: 4.2.1 (Apple Inc. build 5646) (dot 1)
+FFprobe version 0.6, Copyright (c) 2007-2010 the FFmpeg developers
+  built on Jul 11 2010 14:13:56 with gcc 4.2.1 (Apple Inc. build 5646) (dot 1)
+  configuration: --arch=x86_64 --cpu=core2 --prefix=/opt/ffmpeg --enable-static --enable-shared --enable-gpl --enable-nonfree --enable-postproc --enable-avfilter-lavf --enable-bzlib --enable-libfaac --enable-libmp3lame --enable-libtheora --enable-libvorbis --enable-libx264 --enable-zlib
+  libavutil     50.15. 1 / 50.15. 1
+  libavcodec    52.72. 2 / 52.72. 2
+  libavformat   52.64. 2 / 52.64. 2
+  libavdevice   52. 2. 0 / 52. 2. 0
+  libswscale     0.11. 0 /  0.11. 0
+  libpostproc   51. 2. 0 / 51. 2. 0
 Input #0, ogg, from '/Users/philip/Projects/ffprobe/test/testcases/source.ogv':
   Duration: 00:00:05.66, start: 0.000000, bitrate: 241 kb/s
-    Stream #0.0: Video: theora, yuv420p, 320x240, PAR 1:1 DAR 4:3, 49.58 tbr, 49.58 tbn, 49.58 tbc
+    Stream #0.0: Video: theora, yuv420p, 320x240 [PAR 1:1 DAR 4:3], 49.58 tbr, 49.58 tbn, 49.58 tbc
     Stream #0.1: Audio: vorbis, 22050 Hz, stereo, s16

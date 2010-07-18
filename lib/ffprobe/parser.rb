@@ -1,6 +1,10 @@
 class FFProbe
   class Parser
     
+    # accomodate willy-nilly changes in FFProbe from one version to another.
+    TRANSLATE = Hash.new {|this,key| key }
+    TRANSLATE[:FORMAT] = :FILE
+    
     def parse_stream(io)
       result = {}
       dest = nil
@@ -9,7 +13,7 @@ class FFProbe
         line.chomp!
         case line
         when /\A\[(\w+)\]\Z/
-          (result[$1.to_sym] ||= []).push( dest = {} )
+          (result[TRANSLATE[$1.to_sym]] ||= []).push( dest = {} )
         when /\A\[\/(\w+)\]\Z/
           # ignored, stanzas can't nest.
         when /\A(\w+)=(.*)/

@@ -28,8 +28,8 @@ pix_fmt=yuv420p
 r_frame_rate=595/12
 avg_frame_rate=0/0
 time_base=12/595
-start_time=0:00:00.000000
-duration=0:00:04.699160
+start_time=0.000000 
+duration=4.699160 
 [/STREAM]
 [STREAM]
 index=1
@@ -39,12 +39,22 @@ codec_type=audio
 codec_time_base=0/1
 codec_tag_string=[0][0][0][0]
 codec_tag=0x0000
-sample_rate=22.050 KHz
+sample_rate=22050.000000 
 channels=2
 bits_per_sample=0
 r_frame_rate=0/0
 avg_frame_rate=0/0
 time_base=1/22050
-start_time=0:00:00.000000
-duration=0:00:05.665669
+start_time=0.000000 
+duration=5.665669 
 [/STREAM]
+[FORMAT]
+filename=/Users/philip/Projects/ffprobe/test/testcases/source.ogv
+nb_streams=2
+format_name=ogg
+format_long_name=Ogg
+start_time=0.000000 
+duration=5.665669 
+size=171231.000000 
+bit_rate=241780.000000 
+[/FORMAT]
