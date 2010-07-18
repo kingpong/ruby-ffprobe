@@ -34,67 +34,23 @@ require 'ffprobe/stream_info'
 require 'ffprobe/tags_info'
 
 class FFProbe
-
+  
+  class << self
+    attr_accessor :executable
+  end
+  self.executable ||= "ffprobe"
   
   class InvalidArgument < StandardError; end
   
-  class << self
-    SUPPORTED_FEATURES = %w(
-      unit prefix byte_binary_prefix sexagesimal pretty show_format show_streams
-      read_packets read_frames show_files show_frames show_packets show_tags
-    )
-    
-    @@implemented_features = []
-    def implemented_features
-      executable  # make sure features are loaded
-      @@implemented_features
-    end
-    
-    def executable=(path)
-      if path != @executable
-        @executable = path
-        new_features = []
-        # parse usage info to determine feature set
-        SafePipe.new(@executable,"-h").run do |usage|
-          usage.each_line do |line|
-            next unless line =~ /^-(\w+)/
-            if SUPPORTED_FEATURES.include?($1)
-              new_features << $1.to_sym
-            end
-          end
-        end
-        @@implemented_features.replace(new_features)
-      end
-      @executable
-    rescue Errno::ENOENT
-      @executable = path
-    end
-    
-    def executable
-      @executable || (self.executable = default_executable)
-    end
-    
-    def default_executable
-      ENV["FFPROBE"] || "ffprobe"
-    end
-  end
+  FEATURES = [ :read_packets, :read_frames, :show_files, :show_frames, :show_packets, :show_streams, :show_tags, :pretty ]
+  FEATURES.each {|feature| attr_accessor(feature) }
   
-  # handle features based on whether the ffprobe executable recognizes them
-  def method_missing(sym,*args)
-    if @@implemented_features.include?(sym)
-      return instance_variable_get("@#{sym}")
-    elsif (str = sym.to_s)[-1] == ?=
-      if @@implemented_features.include?((feat = str[0,str.length-1]).to_sym)
-        return instance_variable_set("@#{feat}", args.first)
-      end
-    end
-    super
-  end
-    
+  DEFAULT_FEATURES = [:show_streams, :show_tags]
+  
   attr_accessor :features
   def features=(desired_features)
     @features = desired_features.each {|feature|
-      raise(InvalidArgument, "Unrecognized feature #{feature}") unless @@implemented_features.include?(feature)
+      raise(InvalidArgument, "Unrecognized feature #{feature}") unless FEATURES.include?(feature)
     }
   end
 
@@ -106,7 +62,7 @@ class FFProbe
   end
   
   def initialize(*desired_features)
-    desired_features = [] if desired_features.empty?
+    desired_features = DEFAULT_FEATURES if desired_features.empty?
     self.features = desired_features.reject {|f| f == :units }
     self.units = desired_features.include?(:units)
   end

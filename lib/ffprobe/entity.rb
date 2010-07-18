@@ -13,7 +13,7 @@ class FFProbe
     
     def self.units(mapping)
       mapping.each do |property,unit|
-        self.class_eval <<-EOF, __FILE__, __LINE__
+        self.class_eval <<-EOF
           def #{property}=(val)
             if units?
               if val.nil?
