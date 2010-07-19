@@ -7,7 +7,8 @@ class FFProbe
                   :display_aspect_ratio, :pix_fmt, :index, :time_base,
                   :start_time, :duration, :nb_frames,
                   :sample_rate, :channels, :bits_per_sample,
-                  :probed_size, :probed_nb_pkts, :probed_nb_frames
+                  :probed_size, :probed_nb_pkts, :probed_nb_frames,
+                  :language
 
     units :start_time => "s",
           :sample_rate => "kHz",
