@@ -1,3 +1,7 @@
+= UPDATE
+
+As of November 2010, I've completely abandoned this project.
+
 = FFProbe - ffprobe wrapper for Ruby
 
 FFprobe is a simple multimedia streams analyzer with a command-line
